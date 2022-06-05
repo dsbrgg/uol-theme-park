@@ -1,62 +1,116 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title></title>
-  </head>
-  <body>
-    <!--  HEADER COMMENT -->
-    <header>
-      <nav>
-        <a style="background-color: red; " href="/homepage.html">Shapeland</a> |
-        <a href="/attractions-facitlities.html">Attractions & Facilities</a> |
-        <a href="/tickets.html">Tickets</a>
-      </nav>
+<html lang="en">
 
-      <!--  heading component in front of the video, lets try to do this -->
-      <div style="width: 100px; height: 100px; background-color: red; display: flex; z-index: 999999"></div>
+<!--head section-->
+<head>
+  <title>Shapeland - Home</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Practice web page.">
+  <meta name="author" content="shapeland">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="refresh" content="800">
+  <meta name="keywords" content="uol theme park">
+  <link rel="stylesheet" type="text/css" href="StyleSheets/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!--social favigon-->
+  
+  <!-- styling (see main.css)-->
+    <style>
+        body, html {
+            width: 100%;
+            height: 100%;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
 
-      <video id="video-wrapper" controls>
-        <source src="theme-park.mp4" type="video/mp4">
-        <source src="theme-park.ogg" type="video/ogg">
-        Your browser does not support the video tag.
-      </video>
+<!--body-->
+<body>
+    <header> 
+        <div class="top-container">
+            <div style="flex-grow: 1"><img src="img/clock.png" class="clock">Opening hours</div>
+            <div style="flex-grow: 4"></div>
+            <div style="flex-grow: 0.1"><img src="img/pointer.png" class="pointer">Location</div>
+          </div>
 
-      <!--  Might actually have to be an aside or article? -->
-      <div>OPENNING HOURS - LOCATION</div>
+        <div id="navbar">
+            <div class="nav-container">
+                <div class="logo-container"><img src="img/shape_logo_circ.png" class="logo"></div>
+                <div class="menu-container"><b>Attractions & Facilities</b></div>
+                <div class="menu-container"><b>Ticket info</b></div>
+            </div>
+        </div>
+    
+        <video class="video" autoplay="autoplay" loop="loop" muted="muted" preload="auto"  poster="">
+            <source src="video/head_vid.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+        </video>
     </header>
+   
+    <div class="text-container">
+        <div><b>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam venenatis fermentum euismod. Consectetur adipiscing elit</b> </div>
+    </div>
 
-    <main>
-      <!--  MAIN section -->
-      <section>
-        <!--  ATTRACTIONS BLOCK -->
-        <article>
-          Attraction
-        </article>
-
-        <!--  FACILITIES BLOCK -->
-        <article>
-          Facilities
-        </article>
-      </section>
-
-      <!-- section with general info/links -->
-      <section>
-        <button>Tickets</button>
-        <button>Eat at the park</button>
-        <image alt="Smiley face"></image>
-      </section>
+    <main id="main-container">
+        <div class="flexbox col-1">
+            <img src="img/img1.jpg" style="flex-grow: 2">
+            <button class="button button1">Link button</button>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="flexbox col-2">
+            <img src="img/img1.jpg" style="flex-grow: 2">
+            <button class="button button1">Link button</button>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="flexbox col-3">
+            <img src="img/img1.jpg" style="flex-grow: 2">
+            <button class="button button1">Link button</button>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
     </main>
 
-    <!--  FOOTER COMMENT -->
-    <footer>
-      <a href="facebook.com">Facebook</a> |
-      <a href="twitter.com">Twitter</a> |
-      <a href="instagram.com">Instagram</a>
-      <div>
-        <span>Contacts</span>
-        <span>One</span>
-        <span>Two</span>
+    <div class ="white-container">
+        <div >
+            <p><b>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam venenatis fermentum euismod. Praesent in nunc ut augue egestas blandit nec eget orci. Vestibulum quis ullamcorper nulla, sit amet imperdiet augue. Curabitur ac massa felis. Integer et arcu in sapien accumsan consectetur nec lobortis leo. Maecenas tincidunt laoreet justo ac accumsan. In sit amet rutrum turpis.</b></p>
+            <button class="button button2">Link button</button>
+        </div>
+        <div ><img src="img/img3.jpg" width="550"></div>
       </div>
-    </footer>
-  </body>
+
+    <div class ="shape-container">
+        <div class="flexbox shape-1">
+            <img src="img/circle.png" style="flex-grow: 2">
+        </div>
+        <div class="flexbox shape-2">
+            <img src="img/triangle.png" style="flex-grow: 2">
+        </div>
+        <div class="flexbox shape-3">
+            <img src="img/square.png" style="flex-grow: 2">
+        </div>
+    </div>
+
+<!-- footer -->
+<footer>
+    <div class="footer-container">
+        <div style="flex-grow: 1"><a href="#" class="fa fa-facebook"></a><a href="#" class="fa fa-twitter"></a><a href="#" class="fa fa-instagram"></a>
+        </div>
+        <div style="flex-grow: 0.7">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+        <div style="flex-grow: 0.1">Consectetur adipiscing elit</div>
+      </div>
+</footer>
+
+<!--sticky header script-->
+<script>
+    window.onscroll = function() {myFunction()};
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+</script>
+
+</body>
 </html>

@@ -1,0 +1,314 @@
+/* background and animations,font, responsive features */
+body {
+    background: #ffffff;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+    color: #2b2929;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.3;
+    margin: 0 auto;
+    max-width: 2400px;
+
+}
+
+/*img properties */
+.logo{
+  float: left;
+  width:180px;
+  height:70px;
+  padding: 15px 0px 0px 20px;
+  }
+
+.pointer{
+  float: left;
+  width:20px;
+  height:20px;
+  }
+
+  .clock{
+    float: left;
+    width:17px;
+    height:17px;
+    padding: 5px 0px 0px 0px;
+  }
+
+
+/*video header */
+.video-wrap {
+  z-index: -100;
+}
+
+.video {
+  object-fit: cover;
+  width: 100vw;
+  height: 50vh;
+  top: 0;
+  left: 0;
+}
+
+
+/* Navbar */
+#navbar a {
+  float: right;
+  display: inline;
+  color: #2b2929;
+  text-align: center;
+  padding: 30px;
+  padding-right: 15px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: monospace;
+}
+
+#navbar a:hover
+{
+    color: #2952c4;
+}
+
+
+/* sticky navbar */
+#topbar {
+  overflow: hidden;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+} 
+
+/*flex containers*/
+main {
+  display: flex;
+  flex-flow: row wrap;
+  background-color: DodgerBlue;
+  justify-content: center;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 0px;
+  text-align: center;
+  font-size: 15px;
+  color: white;
+  }
+
+  .main > div {
+    background-color: rgb(255, 255, 255);
+    color: DodgerBlue;
+    margin: 80px;
+    text-align: center;
+  }
+
+  .flexbox img {
+      width: 100%;
+      height: auto;
+  }
+  
+  @media all and (max-width: 650px) {
+      .flexbox {
+          width: 100%;
+      }
+  }
+  
+  @media all and (min-width: 510px) {
+      .col-1,
+      .col-2,
+      .col-3{
+        width: 30%;
+        padding: 15px;
+    }
+  }
+
+  @media all and (min-width: 510px) {
+    .shape-1,
+    .shape-2,
+    .shape-3{
+      width: 30%;
+      padding: 65px;
+  }
+}
+
+
+.top-container {
+  display: flex;
+  background-color: DodgerBlue;
+  border: 0px solid white;
+  justify-content: center;
+}
+
+.top-container > div {
+  background-color: #04660c;
+  margin: 0px;
+  padding: 5px;
+  font-size: 17px;
+  color: rgb(202, 199, 199);
+
+}
+
+  .nav-container {
+    display: flex;
+    align-items: stretch;
+    background-color: #f1f1f1;
+    border: 0px solid white;
+  }
+  
+  .nav-container > div {
+    background-color: rgb(53, 153, 83);
+    color: white;
+    margin: 0px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 20px;
+    justify-content: space-between;
+  }
+      
+  .menu-container {
+    display: flex;
+    align-items: center;
+    flex-grow: 0.1;
+    border-left: 3px solid #fff;
+    padding: 0px 0px 0px 30px;
+  }
+  
+  .menu-container a:hover {
+    color: #2952c4;
+  }
+
+  .logo-container {
+    display: flex;
+    align-items: stretch;
+    flex-grow: 1;
+    padding: 0px 0px 15px 20px;
+
+  }
+
+  .text-container {
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    text-align: center;
+    font-size: 20px;
+  }
+  
+  .text-container > div {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    margin: 0px;
+    font-size: 20px;
+  }
+
+  .white-container {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding-top: 0px;
+    padding-bottom: 30px;
+  }
+  
+  .white-container > div {
+    background-color: white;
+    color: rgb(0, 0, 0);
+    width: 2400px;
+    margin: 0px;
+    text-align: left;
+    line-height: 25px;
+    font-size: 20px;
+    padding: 50px 0px 0px 20px;
+  }
+
+
+  .shape-container {
+    display: flex;
+    align-items: stretch;
+    background-color: white;
+  
+  }
+  .shape-container > div {
+    background-color: rgb(53, 153, 83);
+    color: rgb(255, 255, 255);
+    margin: 0px;
+    text-align: center;
+    line-height: 65px;
+    font-size: 30px;
+    border: 0px solid white;
+  }
+
+  .footer-container {
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    border: 0px solid rgb(3, 3, 3);
+    justify-content: center; 
+  }
+  
+  .footer-container > div {
+    background-color: #ffffff;
+    margin: 0px;
+    padding: 10px;
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+    line-height: 15px;
+  }
+
+/*buttons*/
+    .button {
+      border: none;
+      color: white;
+      padding: 15px 60px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+    }
+    
+    /*bground color button*/
+    .button1 {background-color: #4CAF50;} 
+    .button2 {background-color: #f50e0e;} 
+
+    /*hover effect*/
+    .button1:hover {
+      background-color: #d6d9da;
+      color: white;
+    }
+
+    .button2:hover {
+      background-color: #d6d9da;
+      color: white;
+    }
+
+/*footer social-icons*/
+.fa {
+  padding: 5px;
+  font-size: 10px;
+  width: 25px;
+  text-align: center;
+  text-decoration: none;
+  margin: 2px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
