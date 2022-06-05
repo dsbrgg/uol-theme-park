@@ -26,8 +26,6 @@
 <!--body-->
 <body>
     <header class = "sticky"> 
-
-
         <div id="navbar">
             <div class="nav-container">
                 <div class="logo-container"><img src="../public/images/shape_logo_circ.png" class="logo"></div>
@@ -35,10 +33,9 @@
                 <div class="menu-container"><b>Ticket info</b></div>
             </div>
         </div>
-
     </header>
    
-    <!-- fix it later, it's invisble for now-->
+    <!-- fix it later, it's invisble for now (move just below header-video)-->
     <div class="top-container">
         <div style="flex-grow: 1"><img src="../public/images/clock.png" class="clock">Opening hours</div>
         <div style="flex-grow: 4"></div>
@@ -46,38 +43,39 @@
       </div>
 
     <main id="main-container">
-        
         <video class="video" autoplay="autoplay" loop="loop" muted="muted" preload="auto"  poster="">
             <source src="../public/video/head_vid.mp4" type="video/mp4">
                 Your browser does not support the video tag.
         </video>
 
-        <div class="flexbox col-1">
+        <section class="flexbox col-1">
             <img src="../public/images/img1.jpg" style="flex-grow: 2">
             <button class="button button1">Link button</button>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
-        <div class="flexbox col-2">
+        </section>
+
+        <section class="flexbox col-2">
             <img src="../public/images/img1.jpg" style="flex-grow: 2">
             <button class="button button1">Link button</button>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
-        <div class="flexbox col-3">
+        </section>
+
+        <section class="flexbox col-3">
             <img src="../public/images/img1.jpg" style="flex-grow: 2">
             <button class="button button1">Link button</button>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
+        </section>
     </main>
 
-    <div class ="white-container">
+    <section class ="white-container">
         <div >
             <p><b>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam venenatis fermentum euismod. Praesent in nunc ut augue egestas blandit nec eget orci. Vestibulum quis ullamcorper nulla, sit amet imperdiet augue. Curabitur ac massa felis. Integer et arcu in sapien accumsan consectetur nec lobortis leo. Maecenas tincidunt laoreet justo ac accumsan. In sit amet rutrum turpis.</b></p>
             <button class="button button2">Link button</button>
         </div>
         <div ><img src="../public/images/img3.jpg" width="550"></div>
-      </div>
+      </section>
 
-    <div class ="shape-container">
+    <section class ="shape-container">
         <div class="flexbox shape-1">
             <img src="../public/images/circle.png" style="flex-grow: 2">
         </div>
@@ -87,7 +85,7 @@
         <div class="flexbox shape-3">
             <img src="../public/images/square.png" style="flex-grow: 2">
         </div>
-    </div>
+    </section>
 
 <!-- footer -->
 <footer>
@@ -97,6 +95,7 @@
         <div style="flex-grow: 0.7">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
         <div style="flex-grow: 0.1">Consectetur adipiscing elit</div>
       </div>
+
 </footer>
 
 
