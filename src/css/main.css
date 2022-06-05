@@ -215,7 +215,6 @@ main {
   .white-container > div {
     background-color: white;
     color: rgb(0, 0, 0);
-    width: 2400px;
     margin: 0px;
     text-align: left;
     line-height: 25px;
