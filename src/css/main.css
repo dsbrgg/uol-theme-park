@@ -1,6 +1,6 @@
 /* background and animations,font, responsive features */
 body {
-    background: #ffffff;
+    background: rgb(231, 211, 31);
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
     color: #2b2929;
     font-family: Arial, Helvetica, sans-serif;
@@ -25,18 +25,62 @@ body, html {
   padding: 15px 0px 0px 20px;
   }
 
+.mascot{
+  background-position: center;
+  padding: 30px 0px 0px 100px;
+
+}
+
 .pointer{
   float: left;
   width:20px;
   height:20px;
+  padding: 0px 3px 0px 0px;
+
   }
 
-  .clock{
-    float: left;
-    width:17px;
-    height:17px;
-    padding: 5px 0px 0px 0px;
-  }
+.clock{
+  float: left;
+  width:17px;
+  height:17px;
+  padding: 3px 3px 0px 0px;
+}
+
+/*animations */
+.shape-img-ani-1{
+  animation: shape-img-ani-1 6s ease 0s infinite normal forwards;
+}
+@keyframes shape-img-ani-1  {
+	0% {
+		animation-timing-function: ease-out;
+		transform: scale(1);
+		transform-origin: center center;
+	}
+	10% {
+		animation-timing-function: ease-in;
+		transform: scale(0.91);
+	}
+	17% {
+		animation-timing-function: ease-out;
+		transform: scale(0.98);
+	}
+	33% {
+		animation-timing-function: ease-in;
+		transform: scale(0.87);
+	}
+	45% {
+		animation-timing-function: ease-out;
+		transform: scale(1);
+	}
+}
+
+.shape-img-ani-2{
+  animation: shape-img-ani-1 6s ease 2s infinite normal forwards;
+}
+
+.shape-img-ani-3{
+  animation: shape-img-ani-1 6s ease 4s infinite normal forwards;
+}
 
 
 /*video header */
@@ -50,6 +94,8 @@ body, html {
   height: 50vh;
   top: 0;
   left: 0;
+  padding: 0px 0px 0px 0px; /*size*/
+
 }
 
 
@@ -66,6 +112,7 @@ body, html {
   font-family: monospace;
 }
 
+/*hover works when links are created*/
 #navbar a:hover
 {
     color: #2952c4;
@@ -107,187 +154,189 @@ main {
 
   .main > div {
     background-color: rgb(255, 255, 255);
-    color: DodgerBlue;
+    color: rgb(30, 255, 86);
     margin: 80px;
     text-align: center;
   }
 
-  .flexbox img {
+  .flexbox-media img {
       width: 100%;
       height: auto;
   }
   
   @media all and (max-width: 650px) {
-      .flexbox {
+      .flexbox-media {
           width: 100%;
       }
   }
   
   @media all and (min-width: 510px) {
-      .col-1,
-      .col-2,
-      .col-3{
+      .attraction-image-1,
+      .attraction-image-2,
+      .attraction-image-3{
         width: 30%;
         padding: 15px;
     }
   }
 
   @media all and (min-width: 510px) {
-    .shape-1,
-    .shape-2,
-    .shape-3{
+    .shape-circle,
+    .shape-triangle,
+    .shape-square{
       width: 30%;
-      padding: 65px;
+      padding: 105px;
   }
 }
 
 
-.top-container {
+.opening-hours-container {
   display: flex;
-  background-color: DodgerBlue;
-  border: 0px solid white;
-  justify-content: center;
+  align-items: center;
+  background-color: rgb(231, 211, 31);
+  padding-top: 0px;
+  padding-bottom: 5px;
 }
 
-.top-container > div {
-  background-color: #04660c;
+.opening-hours-container > div {
+  background-color: rgb(231, 211, 31);
+  color: rgb(0, 0, 0);
   margin: 0px;
-  padding: 5px;
-  font-size: 17px;
-  color: rgb(202, 199, 199);
+  text-align: left;
+  line-height: 25px;
+  font-size: 20px;
+  padding: 0px 60px 0px 60px;
+}
+
+.nav-container {
+  display: flex;
+  align-items: stretch;
+  background-color: #f1f1f1;
+  border: 0px solid white;
+}
+
+.nav-container > div {
+  background-color: rgb(53, 153, 83);
+  color: white;
+  margin: 0px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 20px;
+  justify-content: space-between;
+}
+    
+.menu-container {
+  display: flex;
+  align-items: center;
+  flex-grow: 0.1;
+  border-left: 3px solid #fff;
+  padding: 0px 0px 0px 30px;
+}
+
+.menu-container a:hover {
+  color: #2952c4;
+}
+
+.logo-container {
+  display: flex;
+  align-items: stretch;
+  flex-grow: 1;
+  padding: 0px 0px 15px 20px;
 
 }
 
-  .nav-container {
-    display: flex;
-    align-items: stretch;
-    background-color: #f1f1f1;
-    border: 0px solid white;
-  }
-  
-  .nav-container > div {
-    background-color: rgb(53, 153, 83);
-    color: white;
-    margin: 0px;
-    text-align: center;
-    line-height: 75px;
-    font-size: 20px;
-    justify-content: space-between;
-  }
-      
-  .menu-container {
-    display: flex;
-    align-items: center;
-    flex-grow: 0.1;
-    border-left: 3px solid #fff;
-    padding: 0px 0px 0px 30px;
-  }
-  
-  .menu-container a:hover {
-    color: #2952c4;
-  }
+.text-container {
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+  text-align: center;
+  font-size: 20px;
+}
 
-  .logo-container {
-    display: flex;
-    align-items: stretch;
-    flex-grow: 1;
-    padding: 0px 0px 15px 20px;
+.text-container > div {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  margin: 0px;
+  font-size: 20px;
+}
 
-  }
+.bumper-cars-container {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding-top: 0px;
+  padding-bottom: 30px;
+}
 
-  .text-container {
-    display: flex;
-    justify-content: center;
-    background-color: #ffffff;
-    text-align: center;
-    font-size: 20px;
-  }
-  
-  .text-container > div {
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-    margin: 0px;
-    font-size: 20px;
-  }
-
-  .white-container {
-    display: flex;
-    align-items: center;
-    background-color: white;
-    padding-top: 0px;
-    padding-bottom: 30px;
-  }
-  
-  .white-container > div {
-    background-color: white;
-    color: rgb(0, 0, 0);
-    margin: 0px;
-    text-align: left;
-    line-height: 25px;
-    font-size: 20px;
-    padding: 50px 0px 0px 20px;
-  }
+.bumper-cars-container > div {
+  background-color: white;
+  color: rgb(0, 0, 0);
+  margin: 0px;
+  text-align: left;
+  line-height: 25px;
+  font-size: 20px;
+  padding: 50px 0px 0px 20px;
+}
 
 
-  .shape-container {
-    display: flex;
-    align-items: stretch;
-    background-color: white;
-  
-  }
-  .shape-container > div {
-    background-color: rgb(53, 153, 83);
-    color: rgb(255, 255, 255);
-    margin: 0px;
-    text-align: center;
-    line-height: 65px;
-    font-size: 30px;
-    border: 0px solid white;
-  }
+.shape-container {
+  display: flex;
+  align-items: stretch;
+  background-color: white;
 
-  .footer-container {
-    display: flex;
-    background-color: rgb(0, 0, 0);
-    border: 0px solid rgb(3, 3, 3);
-    justify-content: center; 
-  }
-  
-  .footer-container > div {
-    background-color: #ffffff;
-    margin: 0px;
-    padding: 10px;
-    font-size: 17px;
-    color: rgb(0, 0, 0);
-    line-height: 15px;
-  }
+}
+.shape-container > div {
+  background-color: rgb(53, 153, 83);
+  color: rgb(255, 255, 255);
+  margin: 0px;
+  text-align: center;
+  line-height: 25px;
+  font-size: 30px;
+  border: 0px solid white;
+}
+
+.footer-container {
+  display: flex;
+  background-color: rgb(0, 0, 0);
+  border: 0px solid rgb(3, 3, 3);
+  justify-content: center; 
+}
+
+.footer-container > div {
+  background-color: #ffffff;
+  margin: 0px;
+  padding: 10px;
+  font-size: 17px;
+  color: rgb(0, 0, 0);
+  line-height: 15px;
+}
 
 /*buttons*/
-    .button {
-      border: none;
-      color: white;
-      padding: 15px 60px;
-      text-align: center;
-      text-decoration: none;
-      display: inline-block;
-      font-size: 16px;
-      margin: 4px 2px;
-      cursor: pointer;
-    }
-    
-    /*bground color button*/
-    .button1 {background-color: #4CAF50;} 
-    .button2 {background-color: #f50e0e;} 
+  .button {
+    border: none;
+    color: white;
+    padding: 15px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  /*bground color button*/
+  .button1 {background-color: #4CAF50;} 
+  .button2 {background-color: #f50e0e;} 
 
-    /*hover effect*/
-    .button1:hover {
-      background-color: #d6d9da;
-      color: white;
-    }
+  /*hover effect*/
+  .button1:hover {
+    background-color: #d6d9da;
+    color: white;
+  }
 
-    .button2:hover {
-      background-color: #d6d9da;
-      color: white;
-    }
+  .button2:hover {
+    background-color: #d6d9da;
+    color: white;
+  }
 
 /*footer social-icons*/
 .fa {
@@ -317,3 +366,6 @@ main {
   background: #125688;
   color: white;
 }
+
+
+
