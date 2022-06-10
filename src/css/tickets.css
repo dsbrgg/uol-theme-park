@@ -455,17 +455,17 @@ main {
 }
 
 
-.payment-container {
+.payment-contact-container {
   display: flex;
   align-items: stretch;
-  background-color: white;
+  background-color: DodgerBlue;
   width: 100%;
   padding: 50px 50px 30px 20px;
   
 }
 
-.payment-container > div {
-  background-color: white;
+.payment-contact-container > div {
+  background-color: rgb(231, 211, 31);
   color: rgb(2, 2, 2);
   border: 4px black;
   margin: 30px;
