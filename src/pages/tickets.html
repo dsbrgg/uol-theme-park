@@ -3,27 +3,24 @@
 
 <!--head section-->
 <head>
-  <title>Shapeland </title>
+  <title>Shapeland - Tickets</title>
   <meta charset="utf-8">
   <meta name="description" content="Practice web page.">
   <meta name="author" content="shapeland">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="refresh" content="800">
   <meta name="keywords" content="uol theme park">
-  <link rel="stylesheet" type="text/css" href="../css/tickets.css">
+  <link rel="stylesheet" type="text/css" href="../css/main.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!--social favigon-->
-  
-  <!-- styling (see main.css)-->
-    <style>
-        
-
-    </style>
+  <link rel="stylesheet" type="text/css" href="../css/tickets.css">
 </head>
 
-<!--body-->
+<!--Ticket page body-->
 <body>
-    <!--header-->
-    <header class="sticky"> 
+    <!--header section-->
+	
+    <!--navbar--> 
+    <header class="sticky" style="z-index: 9999;"> 
         <nav id="navbar">
             <nav class="nav-container">
                 <div class="logo-container"><img src="../public/images/shape_logo_circ.png" class="logo"></div>
@@ -32,30 +29,26 @@
             </nav>
         </nav>
     </header>
+	
+	<!--hero img-->
+	<header class="hero-image">
+		<div class="hero-text">
+			Tickets
+		</div>
+	</header>
 
-    <!--video section-->
-
-        <!--header img-->
-        <div class="hero-image">
-            <div class="hero-text">
-              <h1 style="font-size:45px">Tickets</h1>
-            </div>
-          </div>
-     
-
-        <!--opening-hours-container below header video-->
-        <section class="opening-hours-container">
-            <div style="flex-grow: 1">One ticket gives access to all attractions!</div>
-            <div style="flex-grow: 4"></div>
-            <div style="flex-grow: 0.1">Purchase in App and save 10%!</div>
-        </section>
-
+	<!--announcements-container below header image-->
+	<section class="announcements-container">
+		<div style="flex-grow: 1">One ticket gives access to all attractions!</div>
+		<div style="flex-grow: 4"></div>
+		<div style="flex-grow: 0.1">Purchase in App and save 10%!</div>
+	</section>
 
     <!--main-->
     <main id="main-container">
-        <!--attractions and facilities section-->
-        <section class="flexbox-media ticket-button-1">
-            <button class="button-ticket button3 ">
+        <!--ticket information-->
+        <section class="ticket-container">
+            <div class="ticket-label">
                 <div><h1>Option One</h1></div>
                 <div><span><b>Information:</b></span></div>
                 <div><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac facilisis metus. 
@@ -64,11 +57,11 @@
                     ras ut sapien eu arcu convallis accumsan.
                     In eget ante et est sollicitudin venenatis. Duis nec euismod odio, non ultrices nibh..</span></div>
                 <div class="price"><h1>$10</h1></div>
-            </button>
+            </div>
         </section>
         
-        <section class="flexbox-media ticket-button-2">
-            <button class="button-ticket button3 ">
+        <section class="ticket-container">
+            <div class="ticket-label">
                 <div><h1>Option Two</h1></div>
                 <div><span><b>Information:</b></span></div>
                 <div><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac facilisis metus. 
@@ -77,11 +70,11 @@
                     ras ut sapien eu arcu convallis accumsan.
                     In eget ante et est sollicitudin venenatis. Duis nec euismod odio, non ultrices nibh.</span></div>
                 <div class="price"><h1>$20</h1></div>
-            </button>
+            </div>
         </section>
 
-        <section class="flexbox-media ticket-button-3">
-            <button class="button-ticket button3 ">
+        <section class="ticket-container">
+            <div class="ticket-label">
                 <div><h1>Option Three</h1></div>
                 <div><span><b>Information:</b></span></div>
                 <div><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac facilisis metus. 
@@ -90,11 +83,16 @@
                     ras ut sapien eu arcu convallis accumsan.
                     In eget ante et est sollicitudin venenatis. Duis nec euismod odio, non ultrices nibh.</span></div>
                 <div class="price"><h1>$30</h1></div>
-            </button>
+            </div>
         </section>
-
+        <!--payment and contact information-->
         <div class="payment-contact-container">
-            <div style="flex-basis:60%"><h2>Payment Options</h2>
+            <div style="flex-basis:60%">
+				<!-- animated mascot -->
+				<div class="flexbox-media mascot">
+				<img src="../public/images/mascot_crop.gif" style="flex-grow: 1; float: right; width: 20%; height 20%">
+				</div>
+				<h2>Payment Options</h2>
                 <p>Visit our dedicated box office team at the park gates for limited edition shape-themed tickets & 
 				lanyards. Our box office accepts cards & cash.
 				<br><br>
@@ -102,10 +100,10 @@
 				<br><br>
 				You can also download our Shapeland app on Apple or Android to purchase e-tickets. Card Payment Only.
 				<br><br>
-				We accept all major credit & debit cards.</p>
-				<img
-					src="https://www.merchantequip.com/image/?logos=v|m|a|d&height=64" alt="Merchant Equipment Store Credit Card Logos"/>
-            </div>
+				We accept all major credit & debit cards. </p>
+				<!-- credit card logos -->
+				<img src="https://www.merchantequip.com/image/?logos=v|m|a|d&height=64" alt="Merchant Equipment Store Credit Card Logos"/>
+			</div>
             <div style="flex-basis:40%"><h2>Contact Information</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac facilisis metus. 
                     Donec faucibus vel lorem vitae cursus. 
@@ -114,20 +112,14 @@
                     In eget ante et est sollicitudin venenatis. Duis nec euismod odio, non ultrices nibh.</p>
             </div>
         </div>
-
-        <!--shapes and mascot section-->
-        <section class="shape-container">
-            <div class="flexbox-media shape-circle">
-                <img src="../public/images/circle.png" style="flex-grow: 2">
-            </div>
-            <div class="flexbox-media shape-triangle">
-                <img src="../public/images/triangle.png" style="flex-grow: 2">
-            </div>
-            <div class="flexbox-media mascot">
-                <img src="../public/images/mascot_crop.gif" style="flex-grow: 2">
-            </div>
-        </section>
-        
+		<!--park map-->
+		<div class="map-container">
+			<h2>Park Map</h2>
+			<br>
+			<div class="map-image">
+				<img src="../public/images/map.jpg" style= "width:100%; align-items:center;">
+			</div>
+		</div>
     </main>
 
     <!-- footer -->
