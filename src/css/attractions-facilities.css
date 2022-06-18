@@ -96,7 +96,7 @@
   }
 }
 
-.Contact-details-park-map-ticket-container-div {
+.contact-details-park-map-ticket-container-div {
   display: flex;
   background-color: #359953;
   padding: 30px;
@@ -112,28 +112,56 @@
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
+div > .attractions-facilities-article-article-fade > img {
+  width: 100%;
+}
+
 #attractions-facilities-article-1 {
   border: 10px solid #bc3434;
+}
+
+#attractions-facilities-card-1 {
+  background-color: #bc3434;
 }
 
 #attractions-facilities-article-2 {
   border: 10px solid #48b929;
 }
 
+#attractions-facilities-card-2 {
+  background-color: #48b929;
+}
+
 #attractions-facilities-article-3 {
   border: 10px solid #2980b9;
+}
+
+#attractions-facilities-card-3 {
+  background-color: #2980b9;
+}
+
+#attractions-facilities-article-4 {
+  border: 10px solid #d0d030;
+}
+
+#attractions-facilities-card-4 {
+  background-color: #d0d030;
 }
 
 .attractions-facilities-flex-child:first-child {
   margin-right: 20px;
 }
 
-.Contact-details-park-map-ticket-container-div > .attractions-facilities-flex-child:nth-child(2) {
+.contact-details-park-map-ticket-container-div > .attractions-facilities-flex-child:nth-child(2) {
   margin-right: 20px;
 }
 
-.Contact-details-park-map-ticket-container-div > .attractions-facilities-flex-child {
+.contact-details-park-map-ticket-container-div > .attractions-facilities-flex-child {
   text-align: center;
+}
+
+.contact-details-park-map-ticket-pic-sizing{
+  width:75%;
 }
 
 .attractions-facilities-footer {
@@ -162,7 +190,7 @@
 }
 
 /* Next & previous buttons */
-.attractions-facilities-article-prev-1, .attractions-facilities-article-next-1, .attractions-facilities-article-prev-2, .attractions-facilities-article-next-2, .attractions-facilities-article-prev-3, .attractions-facilities-article-next-3 {
+.attractions-facilities-article-prev-1, .attractions-facilities-article-next-1, .attractions-facilities-article-prev-2, .attractions-facilities-article-next-2, .attractions-facilities-article-prev-3, .attractions-facilities-article-next-3, .attractions-facilities-article-prev-4, .attractions-facilities-article-next-4 {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -179,13 +207,13 @@
 }
 
 /* Position the "next button" to the right */
-.attractions-facilities-article-next-1, .attractions-facilities-article-next-2, .attractions-facilities-article-next-3 {
+.attractions-facilities-article-next-1, .attractions-facilities-article-next-2, .attractions-facilities-article-next-3, .attractions-facilities-article-next-4 {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
 
 /* On hover, add a black background color with a little bit see-through */
-.attractions-facilities-article-prev-1:hover, .attractions-facilities-article-next-1:hover, .attractions-facilities-article-prev-2:hover, .attractions-facilities-article-next-2:hover, .attractions-facilities-article-prev-3:hover, .attractions-facilities-article-next-3:hover {
+.attractions-facilities-article-prev-1:hover, .attractions-facilities-article-next-1:hover, .attractions-facilities-article-prev-2:hover, .attractions-facilities-article-next-2:hover, .attractions-facilities-article-prev-3:hover, .attractions-facilities-article-next-3:hover, .attractions-facilities-article-prev-4:hover, .attractions-facilities-article-next-4:hover {
   background-color: rgba(0,0,0,0.8);
 }
 
@@ -197,7 +225,7 @@
 
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
-  .attractions-facilities-article-prev-1, .attractions-facilities-article-next-1, .attractions-facilities-article-prev-2, .attractions-facilities-article-next-2, .attractions-facilities-article-prev-3, .attractions-facilities-article-next-3,.text {font-size: 11px}
+  .attractions-facilities-article-prev-1, .attractions-facilities-article-next-1, .attractions-facilities-article-prev-2, .attractions-facilities-article-next-2, .attractions-facilities-article-prev-3, .attractions-facilities-article-next-3, .attractions-facilities-article-prev-4, .attractions-facilities-article-next-4,.text {font-size: 11px}
 }
 
 /* For the flip card */
@@ -230,7 +258,6 @@
 }
 
 .attractions-facilities-flip-card-front {
-  background-color: #359953;
   color: white;
   display: flex;
   justify-content: center;
@@ -244,4 +271,9 @@
   display: flex;
   align-items: center;
   font-size: 1vw;
+}
+
+div > .attractions-facilities-flip-card {
+  margin-top: 6.25%; 
+  margin-left: 12.5%;
 }

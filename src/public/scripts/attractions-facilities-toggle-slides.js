@@ -15,6 +15,10 @@ function loading_article_imgs()
     article_plus_slides(-1, 'attractions-facilities-article-3-slides')
     article_plus_slides(1, 'attractions-facilities-article-3-slides')
 
+    // for article 4
+    article_plus_slides(-1, 'attractions-facilities-article-4-slides')
+    article_plus_slides(1, 'attractions-facilities-article-4-slides')
+
 }
 
 article_show_slides(article_slide_index);
