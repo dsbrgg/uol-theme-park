@@ -38,7 +38,7 @@
 	position: absolute;
     color: #ffff;
     font-size: 300%;
-    background-color: #359953;
+    background-color: #06d6a0;
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 15px;
@@ -49,7 +49,7 @@
 }
 
 .attractions-facilities-header-carousel-active {
-  background-color: #359953;
+  background-color: #06d6a0;
 }
 
 /* Fading animation */
@@ -96,11 +96,11 @@
   }
 }
 
-.contact-details-park-map-ticket-container-div {
+/* .contact-details-park-map-ticket-container-div {
   display: flex;
   background-color: #359953;
   padding: 30px;
-}
+} */
 
 .attractions-facilities-flex-child {
   flex: 1;
@@ -112,7 +112,7 @@
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
-div > .attractions-facilities-article-article-fade > img {
+.attractions-facilities-article-article-fade > img {
   width: 100%;
 }
 
@@ -152,19 +152,20 @@ div > .attractions-facilities-article-article-fade > img {
   margin-right: 20px;
 }
 
-.contact-details-park-map-ticket-container-div > .attractions-facilities-flex-child:nth-child(2) {
+/* .contact-details-park-map-ticket-container-div > .attractions-facilities-flex-child:nth-child(2) {
   margin-right: 20px;
-}
+} */
 
-.contact-details-park-map-ticket-container-div > .attractions-facilities-flex-child {
+/* .contact-details-park-map-ticket-container-div > .attractions-facilities-flex-child {
   text-align: center;
-}
+} */
 
-.contact-details-park-map-ticket-pic-sizing{
+/* .contact-details-park-map-ticket-pic-sizing{
   width:75%;
-}
+} */
 
 .attractions-facilities-footer {
+  background-color: #06d6a0;
   display: flex;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -273,7 +274,7 @@ div > .attractions-facilities-article-article-fade > img {
   font-size: 1vw;
 }
 
-div > .attractions-facilities-flip-card {
+.attractions-facilities-flip-card {
   margin-top: 6.25%; 
   margin-left: 12.5%;
 }
