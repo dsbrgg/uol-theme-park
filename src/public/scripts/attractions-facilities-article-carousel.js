@@ -1,5 +1,8 @@
 let articleSlideIndex = 1;
 
+loadingArticleImgs();
+articleShowSlides(articleSlideIndex);
+
 //js for article
 function loadingArticleImgs() {
     // for article 1
@@ -19,8 +22,6 @@ function loadingArticleImgs() {
     articlePlusSlides(1, 'attractions-facilities-article-4-slides');
 
 }
-
-articleShowSlides(articleSlideIndex);
 
 function articlePlusSlides(n, a) {
     articleShowSlides(articleSlideIndex += n, a);
