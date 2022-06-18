@@ -19,294 +19,292 @@
   <body onload="loadingArticleImgs()">
 
     <!--Attractions and Facilities page body-->
-    <div>
 
-      <!--header carousel-->
-      <section class="attractions-facilities-slideshow-container">
+    <!--navbar--> 
+    <header class = "sticky"> 
 
-        <div class="attractions-facilities-header-slides fade">
-          <img class="attractions-facilities-images" src="../public/images/header-carousel-1.jpeg">
+      <div id="navbar">
+        <div class="nav-container">
+          <div class="logo-container"><img src="../public/images/shape_logo_circ.png" class="logo"></div>
+          <div class="menu-container"><b>Attractions & Facilities</b></div>
+          <div class="menu-container"><b>Ticket info</b></div>
         </div>
-        
-        <div class="attractions-facilities-header-slides fade">
-          <img class="attractions-facilities-images" src="../public/images/header-carousel-2.jpeg">
-        </div>
-        
-        <div class="attractions-facilities-header-slides fade">
-          <img class="attractions-facilities-images" src="../public/images/header-carousel-3.jpeg">
-        </div>
-        
-        <div class="dot-container">
-          <span class="dot"></span> 
-          <span class="dot"></span> 
-          <span class="dot"></span> 
-        </div>
-        
-        <div class="attractions-facilities-carousel-label">
-          Attractions & Facilities
-        <div>
-
-      </section>
-
-      <!--page content-->
-      <div class="attractions-facilities-page-content">
-        <!--rides-->
-        <div class="attractions-facilities-flex-container">
-
-          <div id="attractions-facilities-article-1" class="attractions-facilities-flex-child attractions-facilities-article-slideshow-container">
-            
-            <div class="attractions-facilities-article-1-slides attractions-facilities-article-article-fade">
-              <img class="attractions-facilities-images" src="../public/images/ride-1.jpg">
-            </div>
-            
-            <div class="attractions-facilities-article-1-slides attractions-facilities-article-article-fade">
-              <img class="attractions-facilities-images" src="../public/images/ride-2.jpg">
-            </div>
-            
-            <div class="attractions-facilities-article-1-slides attractions-facilities-article-article-fade">
-              <img class="attractions-facilities-images" src="../public/images/ride-3.jpg">
-            </div>
-            
-            <a class="attractions-facilities-article-prev-1" onclick="articlePlusSlides(-1, 'attractions-facilities-article-1-slides')">❮</a>
-            <a class="attractions-facilities-article-next-1" onclick="articlePlusSlides(1, 'attractions-facilities-article-1-slides')">❯</a>
-
-          </div>
-            
-          <div class="attractions-facilities-flex-child">
-
-            <div class="attractions-facilities-flip-card">
-
-              <div id="attractions-facilities-card-1" class="attractions-facilities-flip-card-inner">
-            
-                <div class="attractions-facilities-flip-card-front">
-                  <p>Rides</p>
-                </div>
-            
-                <div class="attractions-facilities-flip-card-back">
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore 
-                    magna aliqua. Ut enim ad minim veniam, quis nostrud 
-                    exercitation ullamco laboris nisi ut aliquip ex ea 
-                    commodo consequat. Duis aute irure dolor in reprehenderit 
-                    in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                  </p> 
-                </div>
-            
-              </div>
-            
-            </div>
-
-          </div>
-            
-        </div>
-
-        <!--activities-->
-        <div class="attractions-facilities-flex-container">
-
-          <div class="attractions-facilities-flex-child">
-
-            <div class="attractions-facilities-flip-card">
-
-              <div id="attractions-facilities-card-2" class="attractions-facilities-flip-card-inner">
-            
-                <div class="attractions-facilities-flip-card-front">
-                  <p>Activities</p>
-                </div>
-            
-                <div class="attractions-facilities-flip-card-back">
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore 
-                    magna aliqua. Ut enim ad minim veniam, quis nostrud 
-                    exercitation ullamco laboris nisi ut aliquip ex ea 
-                    commodo consequat. Duis aute irure dolor in reprehenderit 
-                    in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                  </p> 
-                </div>
-            
-              </div>
-            
-            </div>
-
-          </div>
-
-          <div id="attractions-facilities-article-2" class="attractions-facilities-flex-child attractions-facilities-article-slideshow-container">
-            
-            <div class="attractions-facilities-article-2-slides attractions-facilities-article-article-fade">
-              <img class="attractions-facilities-images" src="../public/images/activities-1.jpg">
-            </div>
-            
-            <div class="attractions-facilities-article-2-slides attractions-facilities-article-article-fade">
-              <img class="attractions-facilities-images" src="../public/images/activities-2.jpg">
-            </div>
-            
-            <div class="attractions-facilities-article-2-slides attractions-facilities-article-article-fade">
-              <img class="attractions-facilities-images" src="../public/images/activities-3.jpg">
-            </div>
-            
-            <a class="attractions-facilities-article-prev-2" onclick="articlePlusSlides(-1, 'attractions-facilities-article-2-slides')">❮</a>
-            <a class="attractions-facilities-article-next-2" onclick="articlePlusSlides(1, 'attractions-facilities-article-2-slides')">❯</a>
-
-          </div>
-            
-        </div>
-
-        <!--facilities-->
-        <div class="attractions-facilities-flex-container">
-
-          <div id="attractions-facilities-article-3" class="attractions-facilities-flex-child attractions-facilities-article-slideshow-container">
-            
-            <div class="attractions-facilities-article-3-slides attractions-facilities-article-article-fade">
-              <img class="attractions-facilities-images" src="../public/images/facilities-1.webp">
-            </div>
-            
-            <div class="attractions-facilities-article-3-slides attractions-facilities-article-article-fade">
-              <img class="attractions-facilities-images" src="../public/images/facilities-2.jpg">
-            </div>
-            
-            <div class="attractions-facilities-article-3-slides attractions-facilities-article-article-fade">
-              <img class="attractions-facilities-images" src="../public/images/facilities-3.jpg">
-            </div>
-            
-            <a class="attractions-facilities-article-prev-3" onclick="articlePlusSlides(-1, 'attractions-facilities-article-3-slides')">❮</a>
-            <a class="attractions-facilities-article-next-3" onclick="articlePlusSlides(1, 'attractions-facilities-article-3-slides')">❯</a>
-
-          </div>
-            
-          <div class="attractions-facilities-flex-child">
-
-            <div class="attractions-facilities-flip-card">
-
-              <div id="attractions-facilities-card-3" class="attractions-facilities-flip-card-inner">
-            
-                <div class="attractions-facilities-flip-card-front">
-                  <p>Facilities</p>
-                </div>
-            
-                <div class="attractions-facilities-flip-card-back">
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore 
-                    magna aliqua. Ut enim ad minim veniam, quis nostrud 
-                    exercitation ullamco laboris nisi ut aliquip ex ea 
-                    commodo consequat. Duis aute irure dolor in reprehenderit 
-                    in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                  </p> 
-                </div>
-            
-              </div>
-            
-            </div>
-
-          </div>
-            
-        </div>
-
-        <!--food and drink-->
-        <div class="attractions-facilities-flex-container">
-
-          <div class="attractions-facilities-flex-child">
-
-            <div class="attractions-facilities-flip-card">
-
-              <div id="attractions-facilities-card-4" class="attractions-facilities-flip-card-inner">
-            
-                <div class="attractions-facilities-flip-card-front">
-                  <p>Food and Drinks</p>
-                </div>
-            
-                <div class="attractions-facilities-flip-card-back">
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore 
-                    magna aliqua. Ut enim ad minim veniam, quis nostrud 
-                    exercitation ullamco laboris nisi ut aliquip ex ea 
-                    commodo consequat. Duis aute irure dolor in reprehenderit 
-                    in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                  </p> 
-                </div>
-            
-              </div>
-            
-            </div>
-
-          </div>
-
-          <div id="attractions-facilities-article-4" class="attractions-facilities-flex-child attractions-facilities-article-slideshow-container">
-            
-            <div class="attractions-facilities-article-4-slides attractions-facilities-article-article-fade">
-              <img class="attractions-facilities-images" src="../public/images/food-drinks-1.jpeg">
-            </div>
-            
-            <div class="attractions-facilities-article-4-slides attractions-facilities-article-article-fade">
-              <img class="attractions-facilities-images" src="../public/images/food-drinks-2.jpeg">
-            </div>
-            
-            <div class="attractions-facilities-article-4-slides attractions-facilities-article-article-fade">
-              <img class="attractions-facilities-images" src="../public/images/food-drinks-3.jpeg">
-            </div>
-            
-            <a class="attractions-facilities-article-prev-4" onclick="articlePlusSlides(-1, 'attractions-facilities-article-4-slides')">❮</a>
-            <a class="attractions-facilities-article-next-4" onclick="articlePlusSlides(1, 'attractions-facilities-article-4-slides')">❯</a>
-
-          </div>
-            
-        </div>
-
-        <!--Contact details, park map, ticket info-->
-        <div class="contact-details-park-map-ticket-container-div">
-
-          <div class="attractions-facilities-flex-child">
-            <img class="attractions-facilities-images contact-details-park-map-ticket-pic-sizing" src="../public/images/circle.png">
-          </div>
-
-          <div class="attractions-facilities-flex-child">
-            <img class="attractions-facilities-images contact-details-park-map-ticket-pic-sizing" src="../public/images/triangle.png">
-          </div>
-
-          <div class="attractions-facilities-flex-child">
-            <img class="attractions-facilities-images contact-details-park-map-ticket-pic-sizing" src="../public/images/square-2.png">
-          </div>
-            
-        </div>
-
-        <!-- footer -->
-        <footer class="attractions-facilities-footer">
-              <div class="attractions-facilities-flex-child">
-                  <a href="#" class="fa fa-facebook"></a>
-                  <a href="#" class="fa fa-twitter"></a>
-                  <a href="#" class="fa fa-instagram"></a>
-              </div>
-              <div class="attractions-facilities-flex-child">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit
-              </div>
-              <div class="attractions-facilities-flex-child">
-                  Consectetur adipiscing elit
-              </div>
-        </footer>
       </div>
 
-      <!--navbar--> 
-      <header class = "sticky"> 
+    </header>
 
-        <div id="navbar">
-          <div class="nav-container">
-            <div class="logo-container"><img src="../public/images/shape_logo_circ.png" class="logo"></div>
-            <div class="menu-container"><b>Attractions & Facilities</b></div>
-            <div class="menu-container"><b>Ticket info</b></div>
+    <!--header carousel-->
+    <section class="attractions-facilities-slideshow-container">
+
+      <div class="attractions-facilities-header-slides attractions-facilities-header-carousel-fade">
+        <img class="attractions-facilities-images" src="../public/images/header-carousel-1.jpeg">
+      </div>
+      
+      <div class="attractions-facilities-header-slides attractions-facilities-header-carousel-fade">
+        <img class="attractions-facilities-images" src="../public/images/header-carousel-2.jpeg">
+      </div>
+      
+      <div class="attractions-facilities-header-slides attractions-facilities-header-carousel-fade">
+        <img class="attractions-facilities-images" src="../public/images/header-carousel-3.jpeg">
+      </div>
+      
+      <div class="dot-container">
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+      </div>
+      
+      <div class="attractions-facilities-carousel-label">
+        Attractions & Facilities
+      <div>
+
+    </section>
+
+    <!--page content-->
+    <div class="attractions-facilities-page-content">
+      <!--rides-->
+      <div class="attractions-facilities-flex-container">
+
+        <div id="attractions-facilities-article-1" class="attractions-facilities-flex-child attractions-facilities-article-slideshow-container">
+          
+          <div class="attractions-facilities-article-1-slides attractions-facilities-article-article-fade">
+            <img class="attractions-facilities-images" src="../public/images/ride-1.jpg">
           </div>
+          
+          <div class="attractions-facilities-article-1-slides attractions-facilities-article-article-fade">
+            <img class="attractions-facilities-images" src="../public/images/ride-2.jpg">
+          </div>
+          
+          <div class="attractions-facilities-article-1-slides attractions-facilities-article-article-fade">
+            <img class="attractions-facilities-images" src="../public/images/ride-3.jpg">
+          </div>
+          
+          <a class="attractions-facilities-article-prev-1" onclick="articlePlusSlides(-1, 'attractions-facilities-article-1-slides')">❮</a>
+          <a class="attractions-facilities-article-next-1" onclick="articlePlusSlides(1, 'attractions-facilities-article-1-slides')">❯</a>
+
+        </div>
+          
+        <div class="attractions-facilities-flex-child">
+
+          <div class="attractions-facilities-flip-card">
+
+            <div id="attractions-facilities-card-1" class="attractions-facilities-flip-card-inner">
+          
+              <div class="attractions-facilities-flip-card-front">
+                <p>Rides</p>
+              </div>
+          
+              <div class="attractions-facilities-flip-card-back">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                  sed do eiusmod tempor incididunt ut labore et dolore 
+                  magna aliqua. Ut enim ad minim veniam, quis nostrud 
+                  exercitation ullamco laboris nisi ut aliquip ex ea 
+                  commodo consequat. Duis aute irure dolor in reprehenderit 
+                  in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                </p> 
+              </div>
+          
+            </div>
+          
+          </div>
+
+        </div>
+          
+      </div>
+
+      <!--activities-->
+      <div class="attractions-facilities-flex-container">
+
+        <div class="attractions-facilities-flex-child">
+
+          <div class="attractions-facilities-flip-card">
+
+            <div id="attractions-facilities-card-2" class="attractions-facilities-flip-card-inner">
+          
+              <div class="attractions-facilities-flip-card-front">
+                <p>Activities</p>
+              </div>
+          
+              <div class="attractions-facilities-flip-card-back">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                  sed do eiusmod tempor incididunt ut labore et dolore 
+                  magna aliqua. Ut enim ad minim veniam, quis nostrud 
+                  exercitation ullamco laboris nisi ut aliquip ex ea 
+                  commodo consequat. Duis aute irure dolor in reprehenderit 
+                  in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                </p> 
+              </div>
+          
+            </div>
+          
+          </div>
+
         </div>
 
-      </header>
+        <div id="attractions-facilities-article-2" class="attractions-facilities-flex-child attractions-facilities-article-slideshow-container">
+          
+          <div class="attractions-facilities-article-2-slides attractions-facilities-article-article-fade">
+            <img class="attractions-facilities-images" src="../public/images/activities-1.jpg">
+          </div>
+          
+          <div class="attractions-facilities-article-2-slides attractions-facilities-article-article-fade">
+            <img class="attractions-facilities-images" src="../public/images/activities-2.jpg">
+          </div>
+          
+          <div class="attractions-facilities-article-2-slides attractions-facilities-article-article-fade">
+            <img class="attractions-facilities-images" src="../public/images/activities-3.jpg">
+          </div>
+          
+          <a class="attractions-facilities-article-prev-2" onclick="articlePlusSlides(-1, 'attractions-facilities-article-2-slides')">❮</a>
+          <a class="attractions-facilities-article-next-2" onclick="articlePlusSlides(1, 'attractions-facilities-article-2-slides')">❯</a>
 
-      <!--header carousel javascript-->
-      <script src="../public/scripts/attractions-facilities-show-slides.js"></script>
+        </div>
+          
+      </div>
 
-      <!--article carousel javascript-->
-      <script src="../public/scripts/attractions-facilities-toggle-slides.js"></script>
+      <!--facilities-->
+      <div class="attractions-facilities-flex-container">
 
+        <div id="attractions-facilities-article-3" class="attractions-facilities-flex-child attractions-facilities-article-slideshow-container">
+          
+          <div class="attractions-facilities-article-3-slides attractions-facilities-article-article-fade">
+            <img class="attractions-facilities-images" src="../public/images/facilities-1.webp">
+          </div>
+          
+          <div class="attractions-facilities-article-3-slides attractions-facilities-article-article-fade">
+            <img class="attractions-facilities-images" src="../public/images/facilities-2.jpg">
+          </div>
+          
+          <div class="attractions-facilities-article-3-slides attractions-facilities-article-article-fade">
+            <img class="attractions-facilities-images" src="../public/images/facilities-3.jpg">
+          </div>
+          
+          <a class="attractions-facilities-article-prev-3" onclick="articlePlusSlides(-1, 'attractions-facilities-article-3-slides')">❮</a>
+          <a class="attractions-facilities-article-next-3" onclick="articlePlusSlides(1, 'attractions-facilities-article-3-slides')">❯</a>
+
+        </div>
+          
+        <div class="attractions-facilities-flex-child">
+
+          <div class="attractions-facilities-flip-card">
+
+            <div id="attractions-facilities-card-3" class="attractions-facilities-flip-card-inner">
+          
+              <div class="attractions-facilities-flip-card-front">
+                <p>Facilities</p>
+              </div>
+          
+              <div class="attractions-facilities-flip-card-back">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                  sed do eiusmod tempor incididunt ut labore et dolore 
+                  magna aliqua. Ut enim ad minim veniam, quis nostrud 
+                  exercitation ullamco laboris nisi ut aliquip ex ea 
+                  commodo consequat. Duis aute irure dolor in reprehenderit 
+                  in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                </p> 
+              </div>
+          
+            </div>
+          
+          </div>
+
+        </div>
+          
+      </div>
+
+      <!--food and drink-->
+      <div class="attractions-facilities-flex-container">
+
+        <div class="attractions-facilities-flex-child">
+
+          <div class="attractions-facilities-flip-card">
+
+            <div id="attractions-facilities-card-4" class="attractions-facilities-flip-card-inner">
+          
+              <div class="attractions-facilities-flip-card-front">
+                <p>Food and Drinks</p>
+              </div>
+          
+              <div class="attractions-facilities-flip-card-back">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                  sed do eiusmod tempor incididunt ut labore et dolore 
+                  magna aliqua. Ut enim ad minim veniam, quis nostrud 
+                  exercitation ullamco laboris nisi ut aliquip ex ea 
+                  commodo consequat. Duis aute irure dolor in reprehenderit 
+                  in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                </p> 
+              </div>
+          
+            </div>
+          
+          </div>
+
+        </div>
+
+        <div id="attractions-facilities-article-4" class="attractions-facilities-flex-child attractions-facilities-article-slideshow-container">
+          
+          <div class="attractions-facilities-article-4-slides attractions-facilities-article-article-fade">
+            <img class="attractions-facilities-images" src="../public/images/food-drinks-1.jpeg">
+          </div>
+          
+          <div class="attractions-facilities-article-4-slides attractions-facilities-article-article-fade">
+            <img class="attractions-facilities-images" src="../public/images/food-drinks-2.jpeg">
+          </div>
+          
+          <div class="attractions-facilities-article-4-slides attractions-facilities-article-article-fade">
+            <img class="attractions-facilities-images" src="../public/images/food-drinks-3.jpeg">
+          </div>
+          
+          <a class="attractions-facilities-article-prev-4" onclick="articlePlusSlides(-1, 'attractions-facilities-article-4-slides')">❮</a>
+          <a class="attractions-facilities-article-next-4" onclick="articlePlusSlides(1, 'attractions-facilities-article-4-slides')">❯</a>
+
+        </div>
+          
+      </div>
+
+      <!--Contact details, park map, ticket info-->
+      <div class="contact-details-park-map-ticket-container-div">
+
+        <div class="attractions-facilities-flex-child">
+          <img class="attractions-facilities-images contact-details-park-map-ticket-pic-sizing" src="../public/images/circle.png">
+        </div>
+
+        <div class="attractions-facilities-flex-child">
+          <img class="attractions-facilities-images contact-details-park-map-ticket-pic-sizing" src="../public/images/triangle.png">
+        </div>
+
+        <div class="attractions-facilities-flex-child">
+          <img class="attractions-facilities-images contact-details-park-map-ticket-pic-sizing" src="../public/images/square-2.png">
+        </div>
+          
+      </div>
+
+      <!-- footer -->
+      <footer class="attractions-facilities-footer">
+            <div class="attractions-facilities-flex-child">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-instagram"></a>
+            </div>
+            <div class="attractions-facilities-flex-child">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit
+            </div>
+            <div class="attractions-facilities-flex-child">
+                Consectetur adipiscing elit
+            </div>
+      </footer>
     </div>
+
+    <!--header carousel javascript-->
+    <script src="../public/scripts/attractions-facilities-header-carousel.js"></script>
+
+    <!--article carousel javascript-->
+    <script src="../public/scripts/attractions-facilities-arctile-carousel.js"></script>
+
 
   </body>
 
