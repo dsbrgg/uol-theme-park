@@ -6,7 +6,7 @@ function showSlides() {
 
     let slides = document.getElementsByClassName("attractions-facilities-header-slides");
 
-    let dots = document.getElementsByClassName("dot");
+    let dots = document.getElementsByClassName("attractions-facilities-header-carousel-dot");
 
     for (i = 0; i < slides.length; i++) 
     {

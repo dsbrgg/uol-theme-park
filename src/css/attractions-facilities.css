@@ -16,14 +16,14 @@
 }
 
 /* Placing the dot container on the the carousel */
-.dot-container {
+.attractions-facilities-header-carousel-dot-container {
   position: absolute;
   top: 95%;
   left: 45vw;
 }
 
 /* The dots/bullets/indicators */
-.dot {
+.attractions-facilities-header-carousel-dot {
   height: 15px;
   width: 15px;
   margin: 0 2px;
