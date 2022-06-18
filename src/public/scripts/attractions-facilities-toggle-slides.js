@@ -1,34 +1,34 @@
-let article_slide_index = 1;
+let articleSlideIndex = 1;
 
 //js for article
-function loading_article_imgs() 
+function loadingArticleImgs() 
 {
     // for article 1
-    article_plus_slides(-1, 'attractions-facilities-article-1-slides')
-    article_plus_slides(1, 'attractions-facilities-article-1-slides')
+    articlePlusSlides(-1, 'attractions-facilities-article-1-slides')
+    articlePlusSlides(1, 'attractions-facilities-article-1-slides')
 
     // for article 2
-    article_plus_slides(-1, 'attractions-facilities-article-2-slides')
-    article_plus_slides(1, 'attractions-facilities-article-2-slides')
+    articlePlusSlides(-1, 'attractions-facilities-article-2-slides')
+    articlePlusSlides(1, 'attractions-facilities-article-2-slides')
 
     // for article 3
-    article_plus_slides(-1, 'attractions-facilities-article-3-slides')
-    article_plus_slides(1, 'attractions-facilities-article-3-slides')
+    articlePlusSlides(-1, 'attractions-facilities-article-3-slides')
+    articlePlusSlides(1, 'attractions-facilities-article-3-slides')
 
     // for article 4
-    article_plus_slides(-1, 'attractions-facilities-article-4-slides')
-    article_plus_slides(1, 'attractions-facilities-article-4-slides')
+    articlePlusSlides(-1, 'attractions-facilities-article-4-slides')
+    articlePlusSlides(1, 'attractions-facilities-article-4-slides')
 
 }
 
-article_show_slides(article_slide_index);
+articleShowSlides(articleSlideIndex);
 
-function article_plus_slides(n, a) 
+function articlePlusSlides(n, a) 
 {
-    article_show_slides(article_slide_index += n, a);
+    articleShowSlides(articleSlideIndex += n, a);
 }
 
-function article_show_slides(n, b) 
+function articleShowSlides(n, b) 
 {
     let i = 0;
 
@@ -36,12 +36,12 @@ function article_show_slides(n, b)
 
     if (n > slides.length) 
     {
-    article_slide_index = 1
+    articleSlideIndex = 1
     } 
 
     if (n < 1) 
     {
-    article_slide_index = slides.length
+    articleSlideIndex = slides.length
     }
 
     for (i = 0; i < slides.length; i++) 
@@ -49,11 +49,11 @@ function article_show_slides(n, b)
     slides[i].style.display = "none";  
     }
 
-    slides[article_slide_index-1].style.display = "block"; 
+    slides[articleSlideIndex-1].style.display = "block"; 
 }
 
 //js for article
-function article_current_slide(n) 
+function articleCurrentSlide(n) 
 {
-    article_show_slides(article_slide_index = n);
+    articleShowSlides(articleSlideIndex = n);
 }
