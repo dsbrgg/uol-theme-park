@@ -108,7 +108,7 @@
   /* border: 3px solid black; */
 }
  
-.attractions-facilities-flex-child > div > .attractions-facilities-article-1-slides, .attractions-facilities-article-2-slides, .attractions-facilities-article-3-slides, .attractions-facilities-article-article-fade {
+.attractions-facilities-flex-child > div > * {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
