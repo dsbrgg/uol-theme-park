@@ -71,10 +71,16 @@
 
 
 
+
+
+
+
+
 /* Page Content CSS */
 .attractions-facilities-page-content {
   position: relative;
-  top: 600px;
+  top: 585px;
+  background-image: linear-gradient(dodgerBlue, white 10%, white 90%, dodgerBlue);
 }
 
 .attractions-facilities-flex-container {
@@ -165,7 +171,6 @@
 } */
 
 .attractions-facilities-footer {
-  background-color: #06d6a0;
   display: flex;
   padding-top: 30px;
   padding-bottom: 30px;
