@@ -4,7 +4,7 @@ showSlides();
 function showSlides() {
     let i;
 
-    let slides = document.getElementsByClassName("mySlides");
+    let slides = document.getElementsByClassName("attractions-facilities-header-slides");
 
     let dots = document.getElementsByClassName("dot");
 

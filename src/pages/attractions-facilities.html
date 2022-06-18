@@ -16,73 +16,73 @@
   
   </head>
 
-  <body>
+  <body onload="loading_article_imgs()">
 
     <!--Attractions and Facilities page body-->
     <div>
 
       <!--header carousel-->
-      <section class="slideshow-container">
+      <section class="attractions-facilities-slideshow-container">
 
-        <div class="mySlides fade">
-          <img src="../public/images/header-carousel-1.jpeg">
+        <div class="attractions-facilities-header-slides fade">
+          <img class="attractions-facilities-images" src="../public/images/header-carousel-1.jpeg">
         </div>
         
-        <div class="mySlides fade">
-          <img src="../public/images/header-carousel-2.jpeg">
+        <div class="attractions-facilities-header-slides fade">
+          <img class="attractions-facilities-images" src="../public/images/header-carousel-2.jpeg">
         </div>
         
-        <div class="mySlides fade">
-          <img src="../public/images/header-carousel-3.jpeg">
+        <div class="attractions-facilities-header-slides fade">
+          <img class="attractions-facilities-images" src="../public/images/header-carousel-3.jpeg">
         </div>
         
-        <div class="dot_container">
+        <div class="dot-container">
           <span class="dot"></span> 
           <span class="dot"></span> 
           <span class="dot"></span> 
         </div>
         
-        <div class="carousel_label">
+        <div class="attractions-facilities-carousel-label">
           Attractions & Facilities
         <div>
 
       </section>
 
       <!--page content-->
-      <div class="page_content">
+      <div class="attractions-facilities-page-content">
         <!--rides-->
-        <div class="flex-container">
+        <div class="attractions-facilities-flex-container">
 
-          <div id="article_1" class="flex-child article-slideshow-container">
+          <div id="article_1" class="attractions-facilities-flex-child attractions-facilities-article-slideshow-container">
             
-            <div class="article-1-mySlides article-fade">
-              <img src="../public/images/ride-1.jpg" style="width:100%">
+            <div class="attractions-facilities-article-1-slides attractions-facilities-article-article-fade">
+              <img class="attractions-facilities-images" src="../public/images/ride-1.jpg" style="width:100%">
             </div>
             
-            <div class="article-1-mySlides article-fade">
-              <img src="../public/images/ride-2.jpg" style="width:100%">
+            <div class="attractions-facilities-article-1-slides attractions-facilities-article-article-fade">
+              <img class="attractions-facilities-images" src="../public/images/ride-2.jpg" style="width:100%">
             </div>
             
-            <div class="article-1-mySlides article-fade">
-              <img src="../public/images/ride-3.jpg" style="width:100%">
+            <div class="attractions-facilities-article-1-slides attractions-facilities-article-article-fade">
+              <img class="attractions-facilities-images" src="../public/images/ride-3.jpg" style="width:100%">
             </div>
             
-            <a class="article-prev-1" onclick="article_plus_slides_1(-1)">❮</a>
-            <a class="article-next-1" onclick="article_plus_slides_1(1)">❯</a>
+            <a class="attractions-facilities-article-prev-1" onclick="article_plus_slides(-1, 'attractions-facilities-article-1-slides')">❮</a>
+            <a class="attractions-facilities-article-next-1" onclick="article_plus_slides(1, 'attractions-facilities-article-1-slides')">❯</a>
 
           </div>
             
-          <div class="flex-child">
+          <div class="attractions-facilities-flex-child">
 
-            <div class="flip-card" style="margin-top: 6.25%; margin-left: 12.5%;">
+            <div class="attractions-facilities-flip-card" style="margin-top: 6.25%; margin-left: 12.5%;">
 
-              <div class="flip-card-inner">
+              <div class="attractions-facilities-flip-card-inner">
             
-                <div class="flip-card-front" style="background-color: #bc3434;">
+                <div class="attractions-facilities-flip-card-front" style="background-color: #bc3434;">
                   <p>Rides</p>
                 </div>
             
-                <div class="flip-card-back" style="background-color: #bc3434;">
+                <div class="attractions-facilities-flip-card-back" style="background-color: #bc3434;">
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                     sed do eiusmod tempor incididunt ut labore et dolore 
@@ -102,19 +102,19 @@
         </div>
 
         <!--activities-->
-        <div class="flex-container">
+        <div class="attractions-facilities-flex-container">
 
-          <div class="flex-child">
+          <div class="attractions-facilities-flex-child">
 
-            <div class="flip-card" style="margin-top: 6.25%; margin-left: 12.5%;">
+            <div class="attractions-facilities-flip-card" style="margin-top: 6.25%; margin-left: 12.5%;">
 
-              <div class="flip-card-inner">
+              <div class="attractions-facilities-flip-card-inner">
             
-                <div class="flip-card-front" style="background-color: #48b929;">
+                <div class="attractions-facilities-flip-card-front" style="background-color: #48b929;">
                   <p>Activities</p>
                 </div>
             
-                <div class="flip-card-back" style="background-color: #48b929;">
+                <div class="attractions-facilities-flip-card-back" style="background-color: #48b929;">
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                     sed do eiusmod tempor incididunt ut labore et dolore 
@@ -131,60 +131,60 @@
 
           </div>
 
-          <div id="article_2" class="flex-child article-slideshow-container">
+          <div id="article_2" class="attractions-facilities-flex-child attractions-facilities-article-slideshow-container">
             
-            <div class="article-2-mySlides article-fade">
-              <img src="../public/images/activities-1.jpg" style="width:100%">
+            <div class="attractions-facilities-article-2-slides attractions-facilities-article-article-fade">
+              <img class="attractions-facilities-images" src="../public/images/activities-1.jpg" style="width:100%">
             </div>
             
-            <div class="article-2-mySlides article-fade">
-              <img src="../public/images/activities-2.jpg" style="width:100%">
+            <div class="attractions-facilities-article-2-slides attractions-facilities-article-article-fade">
+              <img class="attractions-facilities-images" src="../public/images/activities-2.jpg" style="width:100%">
             </div>
             
-            <div class="article-2-mySlides article-fade">
-              <img src="../public/images/activities-3.jpg" style="width:100%">
+            <div class="attractions-facilities-article-2-slides attractions-facilities-article-article-fade">
+              <img class="attractions-facilities-images" src="../public/images/activities-3.jpg" style="width:100%">
             </div>
             
-            <a class="article-prev-2" onclick="article_plus_slides_2(-1)">❮</a>
-            <a class="article-next-2" onclick="article_plus_slides_2(1)">❯</a>
+            <a class="attractions-facilities-article-prev-2" onclick="article_plus_slides(-1, 'attractions-facilities-article-2-slides')">❮</a>
+            <a class="attractions-facilities-article-next-2" onclick="article_plus_slides(1, 'attractions-facilities-article-2-slides')">❯</a>
 
           </div>
             
         </div>
 
         <!--facilities-->
-        <div class="flex-container">
+        <div class="attractions-facilities-flex-container">
 
-          <div id="article_3" class="flex-child article-slideshow-container">
+          <div id="article_3" class="attractions-facilities-flex-child attractions-facilities-article-slideshow-container">
             
-            <div class="article-3-mySlides article-fade">
-              <img src="../public/images/facilities-1.webp" style="width:100%">
+            <div class="attractions-facilities-article-3-slides attractions-facilities-article-article-fade">
+              <img class="attractions-facilities-images" src="../public/images/facilities-1.webp" style="width:100%">
             </div>
             
-            <div class="article-3-mySlides article-fade">
-              <img src="../public/images/facilities-2.jpg" style="width:100%">
+            <div class="attractions-facilities-article-3-slides attractions-facilities-article-article-fade">
+              <img class="attractions-facilities-images" src="../public/images/facilities-2.jpg" style="width:100%">
             </div>
             
-            <div class="article-3-mySlides article-fade">
-              <img src="../public/images/facilities-3.jpg" style="width:100%">
+            <div class="attractions-facilities-article-3-slides attractions-facilities-article-article-fade">
+              <img class="attractions-facilities-images" src="../public/images/facilities-3.jpg" style="width:100%">
             </div>
             
-            <a class="article-prev-3" onclick="article_plus_slides_3(-1)">❮</a>
-            <a class="article-next-3" onclick="article_plus_slides_3(1)">❯</a>
+            <a class="attractions-facilities-article-prev-3" onclick="article_plus_slides(-1, 'attractions-facilities-article-3-slides')">❮</a>
+            <a class="attractions-facilities-article-next-3" onclick="article_plus_slides(1, 'attractions-facilities-article-3-slides')">❯</a>
 
           </div>
             
-          <div class="flex-child">
+          <div class="attractions-facilities-flex-child">
 
-            <div class="flip-card" style="margin-top: 6.25%; margin-left: 12.5%;">
+            <div class="attractions-facilities-flip-card" style="margin-top: 6.25%; margin-left: 12.5%;">
 
-              <div class="flip-card-inner">
+              <div class="attractions-facilities-flip-card-inner">
             
-                <div class="flip-card-front" style="background-color: #2980b9;">
+                <div class="attractions-facilities-flip-card-front" style="background-color: #2980b9;">
                   <p>Facilities</p>
                 </div>
             
-                <div class="flip-card-back" style="background-color: #2980b9;">
+                <div class="attractions-facilities-flip-card-back" style="background-color: #2980b9;">
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                     sed do eiusmod tempor incididunt ut labore et dolore 
@@ -204,37 +204,50 @@
         </div>
 
         <!--Contact details, park map, ticket info-->
-        <div class="nth_shape_container_div">
+        <div class="Contact-details-park-map-ticket-container-div">
 
-          <div class="flex-child">
-            <img src="../public/images/circle.png" style="width:75%">
+          <div class="attractions-facilities-flex-child">
+            <img class="attractions-facilities-images" src="../public/images/circle.png" style="width:75%">
           </div>
 
-          <div class="flex-child">
-            <img src="../public/images/triangle.png" style="width:75%">
+          <div class="attractions-facilities-flex-child">
+            <img class="attractions-facilities-images" src="../public/images/triangle.png" style="width:75%">
           </div>
 
-          <div class="flex-child">
-            <img src="../public/images/square-2.png" style="width:75%">
+          <div class="attractions-facilities-flex-child">
+            <img class="attractions-facilities-images" src="../public/images/square-2.png" style="width:75%">
           </div>
             
         </div>
 
         <!-- footer -->
-        <footer>
-              <div class="flex-child">
+        <footer class="attractions-facilities-footer">
+              <div class="attractions-facilities-flex-child">
                   <a href="#" class="fa fa-facebook"></a>
                   <a href="#" class="fa fa-twitter"></a>
                   <a href="#" class="fa fa-instagram"></a>
               </div>
-              <div class="flex-child">
+              <div class="attractions-facilities-flex-child">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit
               </div>
-              <div class="flex-child">
+              <div class="attractions-facilities-flex-child">
                   Consectetur adipiscing elit
               </div>
         </footer>
       </div>
+
+      <!--navbar--> 
+      <header class = "sticky"> 
+
+        <div id="navbar">
+          <div class="nav-container">
+            <div class="logo-container"><img src="../public/images/shape_logo_circ.png" class="logo"></div>
+            <div class="menu-container"><b>Attractions & Facilities</b></div>
+            <div class="menu-container"><b>Ticket info</b></div>
+          </div>
+        </div>
+
+      </header>
 
       <!--header carousel javascript-->
       <script src="../public/scripts/attractions-facilities-show-slides.js"></script>
@@ -243,19 +256,6 @@
       <script src="../public/scripts/attractions-facilities-toggle-slides.js"></script>
 
     </div>
-
-    <!--navbar--> 
-    <header class = "sticky"> 
-
-      <div id="navbar">
-        <div class="nav-container">
-          <div class="logo-container"><img src="../public/images/shape_logo_circ.png" class="logo"></div>
-          <div class="menu-container"><b>Attractions & Facilities</b></div>
-          <div class="menu-container"><b>Ticket info</b></div>
-        </div>
-      </div>
-
-    </header>
 
   </body>
 
