@@ -36,7 +36,11 @@
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
+<<<<<<< HEAD
     background-color: #0077BE;
+=======
+	background-color: #0077BE;
+>>>>>>> e5325e4 (Design Changes to tickets.CSS)
 }
 
 .price{
@@ -81,7 +85,12 @@
 }
 
 .payment-contact-container > div {
+<<<<<<< HEAD
   color: black;
+=======
+  background-color: rgb(231, 211, 31);
+  color: black);
+>>>>>>> e5325e4 (Design Changes to tickets.CSS)
   border: 4px black;
   text-align: justify;
   margin: 4px 2px;
