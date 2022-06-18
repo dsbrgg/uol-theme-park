@@ -5,13 +5,13 @@
 .announcements-container {
   display: flex;
   align-items: center;
-  background-color: rgb(231, 211, 31);
+  background-color: rgb(255, 209, 102);
   padding-top: 5px;
   padding-bottom: 5px;
 }
 
 .announcements-container > div {
-  background-color: rgb(231, 211, 31);
+  background-color: rgb(255, 209, 102);
   color: rgb(0, 0, 0);
   margin: 0px;
   text-align: left;
@@ -36,7 +36,7 @@
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
-	background-color: #bc3434;
+	background-color: #0077BE;
 }
 
 .price{
@@ -61,8 +61,8 @@
 .hero-text {
 	position: absolute;
     color: #ffff;
-    font-size: 300%;
-    background-color: #359953;
+    font-size: 50px;
+    background-color: rgb(239, 71, 111);
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 15px;
@@ -83,19 +83,18 @@
 
 .payment-contact-container > div {
   background-color: rgb(231, 211, 31);
-  color: rgb(2, 2, 2);
+  color: black);
   border: 4px black;
-  margin: 30px;
-  text-align: center;
-  line-height: 45px;
-  font-size: 30px;
-  border: 2px solid rgb(0, 0, 0);
+  text-align: justify;
+  margin: 4px 2px;
+  border: 10px solid;
+  border-color: rgb(239, 71, 111) white;
 }
 
  /* animated mascot */
 .mascot{
-  background-position: center;
-  padding: 30px 30px 0px 100px;
+  background-position: left;
+  padding: 10px 0px 0px 0px;
 
 }
 
