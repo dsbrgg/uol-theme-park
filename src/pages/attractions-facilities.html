@@ -1,222 +1,311 @@
 <!DOCTYPE html>
 <html>
-    <head>
-    
-        <title>Shapeland Attraction and Facilities</title>
-        <meta charset="utf-8">
-        <meta name="description" content="Practice web page.">
-        <meta name="author" content="shapeland">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="refresh" content="800">
-        <meta name="keywords" content="uol theme park">
-        <link rel="stylesheet" type="text/css" href="../css/main.css">
-        <link rel="stylesheet" type="text/css" href="../css/attractions-facilities.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!--social favigon-->
 
-</head>
+  <head>
+
+    <title>Shapeland - Attractions and Facilities</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Practice web page.">
+    <meta name="author" content="shapeland">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="refresh" content="800">
+    <meta name="keywords" content="uol theme park">
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!--social favigon-->
+    <link rel="stylesheet" type="text/css" href="../css/attractions-facilities.css">
   
-    <body>
-    
-    <!-- Nav Bar -->
-        <header class="sticky">   
-            
-                <div id="navbar">
-                    <div class="nav-container">
-                        <div class="logo-container"><img src="../public/images/shape_logo_circ.png" class="logo"></div>
-                        <div class="menu-container"><b>Attraction & Facilities</b></div>
-                        <div class="menu-container"><b>Ticket info</b></div>
-                    </div>
-                </div>
+  </head>
 
-        </header>
+  <body>
 
+    <!--Attractions and Facilities page body-->
 
-    
-        <!-- Section 1 -->
-        <section>
+    <!--navbar--> 
+    <header class = "sticky"> 
 
-            <!-- Image of Rides -->
-            <section class="carousel" aria-label="Gallery">
-                <ol class="carousel__viewport">
-                  <li id="carousel__slide1"
-                      tabindex="0"
-                      class="carousel__slide">
-                    <div class="carousel__snapper">
-                      <a href="#carousel__slide4"
-                         class="carousel__prev">Go to last slide</a>
-                      <a href="#carousel__slide2"
-                         class="carousel__next">Go to next slide</a>
-                    </div>
-                  </li>
-                  <li id="carousel__slide2"
-                      tabindex="0"
-                      class="carousel__slide">
-                    <div class="carousel__snapper"></div>
-                    <a href="#carousel__slide1"
-                       class="carousel__prev">Go to previous slide</a>
-                    <a href="#carousel__slide3"
-                       class="carousel__next">Go to next slide</a>
-                  </li>
-                  <li id="carousel__slide3"
-                      tabindex="0"
-                      class="carousel__slide">
-                    <div class="carousel__snapper"></div>
-                    <a href="#carousel__slide2"
-                       class="carousel__prev">Go to previous slide</a>
-                    <a href="#carousel__slide4"
-                       class="carousel__next">Go to next slide</a>
-                  </li>
-                  <li id="carousel__slide4"
-                      tabindex="0"
-                      class="carousel__slide">
-                    <div class="carousel__snapper"></div>
-                    <a href="#carousel__slide3"
-                       class="carousel__prev">Go to previous slide</a>
-                    <a href="#carousel__slide1"
-                       class="carousel__next">Go to first slide</a>
-                  </li>
-                </ol>
-                <aside class="carousel__navigation">
-                  <ol class="carousel__navigation-list">
-                    <li class="carousel__navigation-item">
-                      <a href="#carousel__slide1"
-                         class="carousel__navigation-button">Go to slide 1</a>
-                    </li>
-                    <li class="carousel__navigation-item">
-                      <a href="#carousel__slide2"
-                         class="carousel__navigation-button">Go to slide 2</a>
-                    </li>
-                    <li class="carousel__navigation-item">
-                      <a href="#carousel__slide3"
-                         class="carousel__navigation-button">Go to slide 3</a>
-                    </li>
-                    <li class="carousel__navigation-item">
-                      <a href="#carousel__slide4"
-                         class="carousel__navigation-button">Go to slide 4</a>
-                    </li>
-                  </ol>
-                </aside>
-            </section>
+      <div id="navbar">
+        <div class="nav-container">
+          <div class="logo-container"><img src="../public/images/shape_logo_circ.png" class="logo"></div>
+          <div class="menu-container"><b>Attractions & Facilities</b></div>
+          <div class="menu-container"><b>Ticket info</b></div>
+        </div>
+      </div>
 
-            <!-- More information -->
-            <article>
+    </header>
+
+    <!--header carousel-->
+    <section class="attractions-facilities-slideshow-container">
+
+      <div class="attractions-facilities-header-slides attractions-facilities-header-carousel-fade">
+        <img class="attractions-facilities-images" src="../public/images/header-carousel-1.jpeg">
+      </div>
+      
+      <div class="attractions-facilities-header-slides attractions-facilities-header-carousel-fade">
+        <img class="attractions-facilities-images" src="../public/images/header-carousel-2.jpeg">
+      </div>
+      
+      <div class="attractions-facilities-header-slides attractions-facilities-header-carousel-fade">
+        <img class="attractions-facilities-images" src="../public/images/header-carousel-3.jpeg">
+      </div>
+      
+      <div class="attractions-facilities-header-carousel-dot-container">
+        <span class="attractions-facilities-header-carousel-dot"></span> 
+        <span class="attractions-facilities-header-carousel-dot"></span> 
+        <span class="attractions-facilities-header-carousel-dot"></span> 
+      </div>
+      
+      <div class="attractions-facilities-carousel-label">
+        Attractions & Facilities
+      <div>
+
+    </section>
+
+    <!--page content-->
+    <div class="attractions-facilities-page-content">
+      <!--rides-->
+      <section class="attractions-facilities-flex-container">
+
+        <article id="attractions-facilities-article-1" class="attractions-facilities-flex-child attractions-facilities-article-slideshow-container">
+          
+          <div class="attractions-facilities-article-1-slides attractions-facilities-article-article-fade">
+            <img class="attractions-facilities-images" src="../public/images/ride-1.jpg">
+          </div>
+          
+          <div class="attractions-facilities-article-1-slides attractions-facilities-article-article-fade">
+            <img class="attractions-facilities-images" src="../public/images/ride-2.jpg">
+          </div>
+          
+          <div class="attractions-facilities-article-1-slides attractions-facilities-article-article-fade">
+            <img class="attractions-facilities-images" src="../public/images/ride-3.jpg">
+          </div>
+          
+          <a class="attractions-facilities-article-prev-1" onclick="articlePlusSlides(-1, 'attractions-facilities-article-1-slides')">❮</a>
+          <a class="attractions-facilities-article-next-1" onclick="articlePlusSlides(1, 'attractions-facilities-article-1-slides')">❯</a>
+
+        </article>
+          
+        <article class="attractions-facilities-flex-child">
+
+          <section class="attractions-facilities-flip-card">
+
+            <div id="attractions-facilities-card-1" class="attractions-facilities-flip-card-inner">
+          
+              <div class="attractions-facilities-flip-card-front">
+                <p>Rides</p>
+              </div>
+          
+              <div class="attractions-facilities-flip-card-back">
                 <p>
-                    <h2>Rides</h2>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Proin quis elit commodo, tincidunt dolor non, tincidunt ante. 
-                    Sed eget congue odio. Praesent egestas gravida nunc vel blandit.
-                    <!-- On button click this will should be revealed -->
-                    <span class="more">
-                        Ut eget mattis risus. Nulla dignissim lectus et ornare commodo. 
-                        Cras eget tempus libero. Donec in dapibus nulla. 
-                        In at dui bibendum,
-                    </span>
-                    <!-- button -->
-                    <button onclick="" class="readMore_Btn">Read more</button>
-                </p>
-            </article>
-
-        </section>
-
-        <!-- Section 2 -->
-        <section>
-
-            <!-- More information -->
-            <article>
-                <p>
-                    <h2>Food and Drink</h2>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Proin quis elit commodo, tincidunt dolor non, tincidunt ante. 
-                    Sed eget congue odio. Praesent egestas gravida nunc vel blandit.
-                    <!-- On button click this will should be revealed -->
-                    <span class="more">
-                        Ut eget mattis risus. Nulla dignissim lectus et ornare commodo. 
-                        Cras eget tempus libero. Donec in dapibus nulla. 
-                        In at dui bibendum,
-                    </span>
-                    <!-- button -->
-                    <button onclick="" class="readMore_Btn">Read more</button>
-                </p>
-            </article>
-
-            <!-- Image of Food and Drink -->
-            <article>
-                <div class="slideshow-container">
-
-                    <div class="Slides">
-                      <img src="food_drink_1.jpg">
-                    </div>
-                    
-                    <div class="Slides">
-                      <img src="food_drink_2.jpg">
-                    </div>
-                    
-                    <div class="Slides">
-                      <img src="food_drink_3.jpg">
-                    </div>
-                    
-                </div>
-            </article>
-
-        </section>
-
-        <!-- Section 3 -->
-        <section>
-
-            <!-- Image of Facilities -->
-            <article>
-                <div class="slideshow-container">
-
-                    <div class="Slides">
-                      <img src="facilities_1.jpg">
-                    </div>
-                    
-                    <div class="Slides">
-                      <img src="facilities_2.jpg">
-                    </div>
-                    
-                    <div class="Slides">
-                      <img src="facilities_3.jpg">
-                    </div>
-                    
-                </div>
-            </article>
-
-            <!-- More information -->
-            <article>
-                <p>
-                    <h2>Facilities</h2>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Proin quis elit commodo, tincidunt dolor non, tincidunt ante. 
-                    Sed eget congue odio. Praesent egestas gravida nunc vel blandit.
-                    <!-- On button click this will should be revealed -->
-                    <span class="more">
-                        Ut eget mattis risus. Nulla dignissim lectus et ornare commodo. 
-                        Cras eget tempus libero. Donec in dapibus nulla. 
-                        In at dui bibendum,
-                    </span>
-                    <!-- button -->
-                    <button onclick="" class="readMore_Btn">Read more</button>
-                </p>
-            </article>
-
-        </section>
-        
-        <!--  FOOTER COMMENT -->
-        <footer>
-
-            <a href="facebook.com">Facebook</a> |
-            <a href="twitter.com">Twitter</a> |
-            <a href="instagram.com">Instagram</a>
-
-            <div>
-            <span>Contacts</span>
-            <span>One</span>
-            <span>Two</span>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                  sed do eiusmod tempor incididunt ut labore et dolore 
+                  magna aliqua. Ut enim ad minim veniam, quis nostrud 
+                  exercitation ullamco laboris nisi ut aliquip ex ea 
+                  commodo consequat. Duis aute irure dolor in reprehenderit 
+                  in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                </p> 
+              </div>
+          
             </div>
+          
+          </section>
 
-        </footer>
+        </article>
+          
+      </section>
 
-    </body>
+      <!--activities-->
+      <section class="attractions-facilities-flex-container">
 
-</html>
+        <article class="attractions-facilities-flex-child">
+
+          <section class="attractions-facilities-flip-card">
+
+            <div id="attractions-facilities-card-2" class="attractions-facilities-flip-card-inner">
+          
+              <div class="attractions-facilities-flip-card-front">
+                <p>Activities</p>
+              </div>
+          
+              <div class="attractions-facilities-flip-card-back">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                  sed do eiusmod tempor incididunt ut labore et dolore 
+                  magna aliqua. Ut enim ad minim veniam, quis nostrud 
+                  exercitation ullamco laboris nisi ut aliquip ex ea 
+                  commodo consequat. Duis aute irure dolor in reprehenderit 
+                  in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                </p> 
+              </div>
+          
+            </div>
+          
+          </section>
+
+        </article>
+
+        <article id="attractions-facilities-article-2" class="attractions-facilities-flex-child attractions-facilities-article-slideshow-container">
+          
+          <div class="attractions-facilities-article-2-slides attractions-facilities-article-article-fade">
+            <img class="attractions-facilities-images" src="../public/images/activities-1.jpg">
+          </div>
+          
+          <div class="attractions-facilities-article-2-slides attractions-facilities-article-article-fade">
+            <img class="attractions-facilities-images" src="../public/images/activities-2.jpg">
+          </div>
+          
+          <div class="attractions-facilities-article-2-slides attractions-facilities-article-article-fade">
+            <img class="attractions-facilities-images" src="../public/images/activities-3.jpg">
+          </div>
+          
+          <a class="attractions-facilities-article-prev-2" onclick="articlePlusSlides(-1, 'attractions-facilities-article-2-slides')">❮</a>
+          <a class="attractions-facilities-article-next-2" onclick="articlePlusSlides(1, 'attractions-facilities-article-2-slides')">❯</a>
+
+        </article>
+          
+      </section>
+
+      <!--facilities-->
+      <section class="attractions-facilities-flex-container">
+
+        <article id="attractions-facilities-article-3" class="attractions-facilities-flex-child attractions-facilities-article-slideshow-container">
+          
+          <div class="attractions-facilities-article-3-slides attractions-facilities-article-article-fade">
+            <img class="attractions-facilities-images" src="../public/images/facilities-1.webp">
+          </div>
+          
+          <div class="attractions-facilities-article-3-slides attractions-facilities-article-article-fade">
+            <img class="attractions-facilities-images" src="../public/images/facilities-2.jpg">
+          </div>
+          
+          <div class="attractions-facilities-article-3-slides attractions-facilities-article-article-fade">
+            <img class="attractions-facilities-images" src="../public/images/facilities-3.jpg">
+          </div>
+          
+          <a class="attractions-facilities-article-prev-3" onclick="articlePlusSlides(-1, 'attractions-facilities-article-3-slides')">❮</a>
+          <a class="attractions-facilities-article-next-3" onclick="articlePlusSlides(1, 'attractions-facilities-article-3-slides')">❯</a>
+
+        </article>
+          
+        <article class="attractions-facilities-flex-child">
+
+          <section class="attractions-facilities-flip-card">
+
+            <div id="attractions-facilities-card-3" class="attractions-facilities-flip-card-inner">
+          
+              <div class="attractions-facilities-flip-card-front">
+                <p>Facilities</p>
+              </div>
+          
+              <div class="attractions-facilities-flip-card-back">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                  sed do eiusmod tempor incididunt ut labore et dolore 
+                  magna aliqua. Ut enim ad minim veniam, quis nostrud 
+                  exercitation ullamco laboris nisi ut aliquip ex ea 
+                  commodo consequat. Duis aute irure dolor in reprehenderit 
+                  in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                </p> 
+              </div>
+          
+            </div>
+          
+          </section>
+
+        </article>
+          
+      </section>
+
+      <!--food and drink-->
+      <section class="attractions-facilities-flex-container">
+
+        <article class="attractions-facilities-flex-child">
+
+          <section class="attractions-facilities-flip-card">
+
+            <div id="attractions-facilities-card-4" class="attractions-facilities-flip-card-inner">
+          
+              <div class="attractions-facilities-flip-card-front">
+                <p>Food and Drinks</p>
+              </div>
+          
+              <div class="attractions-facilities-flip-card-back">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                  sed do eiusmod tempor incididunt ut labore et dolore 
+                  magna aliqua. Ut enim ad minim veniam, quis nostrud 
+                  exercitation ullamco laboris nisi ut aliquip ex ea 
+                  commodo consequat. Duis aute irure dolor in reprehenderit 
+                  in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                </p> 
+              </div>
+          
+            </div>
+          
+          </section>
+
+        </article>
+
+        <article id="attractions-facilities-article-4" class="attractions-facilities-flex-child attractions-facilities-article-slideshow-container">
+          
+          <div class="attractions-facilities-article-4-slides attractions-facilities-article-article-fade">
+            <img class="attractions-facilities-images" src="../public/images/food-drinks-1.jpeg">
+          </div>
+          
+          <div class="attractions-facilities-article-4-slides attractions-facilities-article-article-fade">
+            <img class="attractions-facilities-images" src="../public/images/food-drinks-2.jpeg">
+          </div>
+          
+          <div class="attractions-facilities-article-4-slides attractions-facilities-article-article-fade">
+            <img class="attractions-facilities-images" src="../public/images/food-drinks-3.jpeg">
+          </div>
+          
+          <a class="attractions-facilities-article-prev-4" onclick="articlePlusSlides(-1, 'attractions-facilities-article-4-slides')">❮</a>
+          <a class="attractions-facilities-article-next-4" onclick="articlePlusSlides(1, 'attractions-facilities-article-4-slides')">❯</a>
+
+        </article>
+          
+      </section>
+
+      <!--Contact details, park map, ticket info-->
+      <!-- <section class="contact-details-park-map-ticket-container-div">
+
+        <div class="attractions-facilities-flex-child">
+          <img class="attractions-facilities-images contact-details-park-map-ticket-pic-sizing" src="../public/images/circle.png">
+        </div>
+
+        <div class="attractions-facilities-flex-child">
+          <img class="attractions-facilities-images contact-details-park-map-ticket-pic-sizing" src="../public/images/triangle.png">
+        </div>
+
+        <div class="attractions-facilities-flex-child">
+          <img class="attractions-facilities-images contact-details-park-map-ticket-pic-sizing" src="../public/images/square-2.png">
+        </div>
+          
+      </section> -->
+
+      <!-- footer -->
+      <footer class="attractions-facilities-footer">
+            <div class="attractions-facilities-flex-child">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-instagram"></a>
+            </div>
+            <div class="attractions-facilities-flex-child">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit
+            </div>
+            <div class="attractions-facilities-flex-child">
+                Consectetur adipiscing elit
+            </div>
+      </footer>
+    </div>
+
+    <!--header carousel javascript-->
+    <script src="../public/scripts/attractions-facilities-header-carousel.js"></script>
+
+    <!--article carousel javascript-->
+    <script src="../public/scripts/attractions-facilities-article-carousel.js"></script>
+
+
+  </body>
+
+</html> 
