@@ -1,104 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <title>Shapeland</title>
+        <meta charset="utf-8">
+        <meta name="description" content="Practice web page.">
+        <meta name="author" content="shapeland">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="refresh" content="800">
+        <meta name="keywords" content="uol theme park">
+        <link rel="stylesheet" type="text/css" href="../css/main.css">
+        <link rel="stylesheet" type="text/css" href="../css/homepage.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
 
-<!--head section-->
-<head>
-  <title>Shapeland - Home</title>
-  <meta charset="utf-8">
-  <meta name="description" content="Practice web page.">
-  <meta name="author" content="shapeland">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="refresh" content="800">
-  <meta name="keywords" content="uol theme park">
-  <link rel="stylesheet" type="text/css" href="../css/main.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!--social favigon-->
-  
-  <!-- styling (see main.css)-->
-    <style>
+    <body class="body-container">
+        <!-- Navbar -->
+        <header class="navbar-container"> 
+            <img id="navbar-logo" src="../public/images/shape_logo_circ.png">
+            <b id="navbar-attractions-link">Attractions & Facilities</b>
+            <b id="navbar-tickets-link">Ticket info</b>
+        </header>
 
-    </style>
-</head>
+        <!-- Main content (attractions, etc...) -->
+        <main class="main-content-container">
 
-<!--body-->
-<body>
-    <header class = "sticky"> 
-        <div id="navbar">
-            <div class="nav-container">
-                <div class="logo-container"><img src="../public/images/shape_logo_circ.png" class="logo"></div>
-                <div class="menu-container"><b>Attractions & Facilities</b></div>
-                <div class="menu-container"><b>Ticket info</b></div>
-            </div>
-        </div>
-    </header>
-   
-    <!-- fix it later, it's invisble for now (move just below header-video)-->
-    <div class="top-container">
-        <div style="flex-grow: 1"><img src="../public/images/clock.png" class="clock">Opening hours</div>
-        <div style="flex-grow: 4"></div>
-        <div style="flex-grow: 0.1"><img src="../public/images/pointer.png" class="pointer">Location</div>
-      </div>
-
-    <main id="main-container">
-        <video class="video" autoplay="autoplay" loop="loop" muted="muted" preload="auto"  poster="">
-            <source src="../public/video/head_vid.mp4" type="video/mp4">
+            <!-- Video loop -->
+            <video class="homepage-video" autoplay="autoplay" loop="loop" muted="muted">
+                <source src="../public/video/head_vid.mp4" type="video/mp4">
                 Your browser does not support the video tag.
-        </video>
+            </video>
 
-        <section class="flexbox col-1">
-            <img src="../public/images/img1.jpg" style="flex-grow: 2">
-            <button class="button button1">Link button</button>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </section>
+            <!-- Open hours & location -->
+            <aside class="aside-hour-location-container">
+                <!-- Using divs to apply flex justify-content equally -->
+                <div>
+                    <img src="../public/images/clock.png" class="aside-clock-icon">
+                    <span>Opening hours</span>
+                </div>
+                <!-- Using divs to apply flex values to all div children inside -->
+                <div>
+                    <img src="../public/images/pointer.png" class="aside-location-icon">
+                    <span>Location</span>
+                </div>
+            </aside>
 
-        <section class="flexbox col-2">
-            <img src="../public/images/img1.jpg" style="flex-grow: 2">
-            <button class="button button1">Link button</button>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </section>
+            <!-- Ride Info -->
+            <section class="homepage-ride-info-section-container">
+                <article class="homepage-ride-info-article-container">
+                    <img src="../public/images/img1.jpg" class="homepage-ride-info-section-img">
+                    <button class="homepage-ride-info-section-button">Link button</button>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </article>
 
-        <section class="flexbox col-3">
-            <img src="../public/images/img1.jpg" style="flex-grow: 2">
-            <button class="button button1">Link button</button>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </section>
+                <article class="homepage-ride-info-article-container">
+                    <img src="../public/images/img1.jpg" class="homepage-ride-info-section-img">
+                    <button class="homepage-ride-info-section-button">Link button</button>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </article>
 
-        <section class ="white-container">
-            <div >
-                <p><b>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam venenatis fermentum euismod. Praesent in nunc ut augue egestas blandit nec eget orci. Vestibulum quis ullamcorper nulla, sit amet imperdiet augue. Curabitur ac massa felis. Integer et arcu in sapien accumsan consectetur nec lobortis leo. Maecenas tincidunt laoreet justo ac accumsan. In sit amet rutrum turpis.</b></p>
-                <button class="button button2">Link button</button>
-            </div>
-            <div ><img src="../public/images/img3.jpg" width="550">
+                <article class="homepage-ride-info-article-container">
+                    <img src="../public/images/img1.jpg" class="homepage-ride-info-section-img">
+                    <button class="homepage-ride-info-section-button">Link button</button>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </article>
             </section>
-        </div>
 
-        <section class ="shape-container">
-            <div class="flexbox shape-1">
-                <img src="../public/images/circle.png" style="flex-grow: 2">
+            <!-- Theme park description -->
+            <section class ="homepage-park-description-container">
+                <div class="homepage-park-description-text-container">
+                    <p><b>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam venenatis fermentum euismod. Praesent in nunc ut augue egestas blandit nec eget orci. Vestibulum quis ullamcorper nulla, sit amet imperdiet augue. Curabitur ac massa felis. Integer et arcu in sapien accumsan consectetur nec lobortis leo. Maecenas tincidunt laoreet justo ac accumsan. In sit amet rutrum turpis.</b></p>
+                    <button class="homepage-park-description-button">Link button</button>
+                </div>
+                <img src="../public/images/img3.jpg" width="550">
+            </section>
+
+            <!-- Link buttons -->
+            <section class ="homepage-shape-links-container">
+                <img src="../public/images/circle.png">
+                <img src="../public/images/triangle.png">
+                <img src="../public/images/square.png">
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <div class="footer-container">
+                <div>
+                    <a href="#" class="fa fa-facebook footer-icon footer-icon-facebook"></a>
+                    <a href="#" class="fa fa-twitter footer-icon footer-icon-twitter"></a>
+                    <a href="#" class="fa fa-instagram footer-icon footer-icon-instagram"></a>
+                </div>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                </p>
+                <p>
+                    Consectetur adipiscing elit
+                </p>
             </div>
-            <div class="flexbox shape-2">
-                <img src="../public/images/triangle.png" style="flex-grow: 2">
-            </div>
-            <div class="flexbox shape-3">
-                <img src="../public/images/square.png" style="flex-grow: 2">
-            </div>
-        </section>
-    </main>
+        </footer>
 
-
-
-
-
-<!-- footer -->
-<footer>
-    <div class="footer-container">
-        <div style="flex-grow: 1"><a href="#" class="fa fa-facebook"></a><a href="#" class="fa fa-twitter"></a><a href="#" class="fa fa-instagram"></a>
-        </div>
-        <div style="flex-grow: 0.7">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
-        <div style="flex-grow: 0.1">Consectetur adipiscing elit</div>
-      </div>
-</footer>
-
-
-
-</body>
+    </body>
 </html>
