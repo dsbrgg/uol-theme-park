@@ -1,0 +1,91 @@
+/* Homepage video CSS */
+
+.homepage-video {
+    object-fit: cover;
+    width: 100%;
+    height: 60em;
+    margin-top: -10em;
+}
+
+/* Homepage ride info CSS */
+
+.homepage-ride-info-section-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+}
+
+.homepage-ride-info-article-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.homepage-ride-info-section-img {
+    width: 70%;
+    align-self: center;
+}
+
+.homepage-ride-info-section-button {
+    align-self: center;
+    border: none;
+    color: white;
+    background-color: #4CAF50;
+    padding: 1em 2em;
+    text-align: center;
+    font-size: 1em;
+    margin: 1em;
+    cursor: pointer;
+}
+
+.homepage-ride-info-section-button:hover {
+    background-color: #d6d9da;
+    color: white;
+}
+
+/* Homepage theme park description CSS */
+
+.homepage-park-description-container {
+    display: flex;
+    justify-content: space-around;
+    color: black;
+    background-color: white;
+    width: 100%;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.homepage-park-description-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40em;
+}
+
+.homepage-park-description-button {
+    align-self: center;
+    border: none;
+    color: white;
+    background-color: #f50e0e;
+    padding: 1em 2em;
+    text-align: center;
+    font-size: 1em;
+    margin: 1em;
+    cursor: pointer;
+}
+
+.homepage-park-description-button:hover {
+    background-color: #d6d9da;
+    color: white;
+}
+
+.homepage-shape-links-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2em;
+    background-color: #dddd00;
+}
+
+.homepage-shape-links-container > img {
+    width: 10%;
+}
