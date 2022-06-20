@@ -10,9 +10,9 @@
 
 /* Slideshow container */
 .attractions-facilities-slideshow-container {
-  max-width: 1000px;
+  max-width: 62.500em;
   position: absolute;
-  top: 85px;
+  top: 2.813em;
 }
 
 /* Placing the dot container on the the carousel */
@@ -24,9 +24,9 @@
 
 /* The dots/bullets/indicators */
 .attractions-facilities-header-carousel-dot {
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
+  height: 0.938em;
+  width: 0.938em;
+  margin: 0 0.125em;
   background-color: #ffff;
   border-radius: 50%;
   display: inline-block;
@@ -39,10 +39,10 @@
     color: #ffff;
     font-size: 300%;
     background-color: #ef476e;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-top: 0.500em;
+    padding-bottom: 0.500em;
+    padding-left: 0.500em;
+    padding-right: 0.500em;
     top: 70%;
     left: 5%;
     
@@ -64,8 +64,8 @@
 }
 
 /* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
+@media only screen and (max-width: 18.750em) {
+  .prev, .next,.text {font-size: 0.688em}
 }
 
 
@@ -79,43 +79,37 @@
 /* Page Content CSS */
 .attractions-facilities-page-content {
   position: relative;
-  top: 585px;
+  top: 34.063em;
   background-image: linear-gradient(dodgerBlue, white 10%, white 90%, dodgerBlue);
 }
 
 .attractions-facilities-flex-container {
   display: flex;
-  padding: 30px;
-  margin-left: 30px;
-  margin-right: 30px;
+  padding: 1.875em;
+  margin-left: 1.875em;
+  margin-right: 1.875em;
   /* testing purposes */
-  /* border: 3px solid black; */
+  /* border: 0.188em solid black; */
 }
 
 /* Decreasing flex container when window is resized */
 @media all and (display-mode:fullscreen) {
   .attractions-facilities-flex-container {
     display: flex;
-    padding: 30px;
-    margin-left: 150px;
-    margin-right: 150px;
+    padding: 1.875em;
+    margin-left: 9.375em;
+    margin-right: 9.375em;
   }
 }
-
-/* .contact-details-park-map-ticket-container-div {
-  display: flex;
-  background-color: #359953;
-  padding: 30px;
-} */
 
 .attractions-facilities-flex-child {
   flex: 1;
   /* testing purposes */
-  /* border: 3px solid black; */
+  /* border: 0.188em solid black; */
 }
  
 .attractions-facilities-flex-child > div > * {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 0.250em 0.500em 0 rgba(0,0,0,0.2);
 }
 
 .attractions-facilities-article-article-fade > img {
@@ -123,7 +117,7 @@
 }
 
 #attractions-facilities-article-1 {
-  border: 10px solid #bc3434;
+  border: 0.625em solid #bc3434;
 }
 
 #attractions-facilities-card-1 {
@@ -131,7 +125,7 @@
 }
 
 #attractions-facilities-article-2 {
-  border: 10px solid #48b929;
+  border: 0.625em solid #48b929;
 }
 
 #attractions-facilities-card-2 {
@@ -139,7 +133,7 @@
 }
 
 #attractions-facilities-article-3 {
-  border: 10px solid #2980b9;
+  border: 0.625em solid #2980b9;
 }
 
 #attractions-facilities-card-3 {
@@ -147,39 +141,39 @@
 }
 
 #attractions-facilities-article-4 {
-  border: 10px solid #d0d030;
+  border: 0.625em solid #663a82;
 }
 
 #attractions-facilities-card-4 {
-  background-color: #d0d030;
+  background-color: #663a82;
 }
 
 .attractions-facilities-flex-child:first-child {
-  margin-right: 20px;
+  margin-right: 1.250em;
 }
 
-/* .contact-details-park-map-ticket-container-div > .attractions-facilities-flex-child:nth-child(2) {
-  margin-right: 20px;
-} */
+.homepage-shape-links-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2em;
+  background-color: #dddd00;
+}
 
-/* .contact-details-park-map-ticket-container-div > .attractions-facilities-flex-child {
-  text-align: center;
-} */
-
-/* .contact-details-park-map-ticket-pic-sizing{
-  width:75%;
-} */
+.homepage-shape-links-container > img {
+  width: 10%;
+}
 
 .attractions-facilities-footer {
   display: flex;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-top: 1.875em;
+  padding-bottom: 1.875em;
+  padding-left: 1.250em;
+  padding-right: 1.250em;
 }
 
 .attractions-facilities-footer > .attractions-facilities-flex-child:nth-child(2) {
-  margin-right: 20px;
+  margin-right: 1.250em;
 }
 
 .attractions-facilities-footer > .attractions-facilities-flex-child {
@@ -201,13 +195,13 @@
   position: absolute;
   top: 50%;
   width: auto;
-  padding: 16px;
-  margin-top: -22px;
+  padding: 1em;
+  margin-top: -1.375em;
   color: white;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 1.125em;
   transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
+  border-radius: 0 0.188em 0.188em 0;
   user-select: none;
   background-color: rgba(0, 0, 0, 0.248);
 }
@@ -215,7 +209,7 @@
 /* Position the "next button" to the right */
 .attractions-facilities-article-next-1, .attractions-facilities-article-next-2, .attractions-facilities-article-next-3, .attractions-facilities-article-next-4 {
   right: 0;
-  border-radius: 3px 0 0 3px;
+  border-radius: 0.188em 0 0 0.188em;
 }
 
 /* On hover, add a black background color with a little bit see-through */
@@ -230,8 +224,8 @@
 }
 
 /* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .attractions-facilities-article-prev-1, .attractions-facilities-article-next-1, .attractions-facilities-article-prev-2, .attractions-facilities-article-next-2, .attractions-facilities-article-prev-3, .attractions-facilities-article-next-3, .attractions-facilities-article-prev-4, .attractions-facilities-article-next-4,.text {font-size: 11px}
+@media only screen and (max-width: 18.750em) {
+  .attractions-facilities-article-prev-1, .attractions-facilities-article-next-1, .attractions-facilities-article-prev-2, .attractions-facilities-article-next-2, .attractions-facilities-article-prev-3, .attractions-facilities-article-next-3, .attractions-facilities-article-prev-4, .attractions-facilities-article-next-4,.text {font-size: 0.688em}
 }
 
 /* For the flip card */
@@ -247,7 +241,7 @@
   height: 100%;
   text-align: center;
   transition: transform 0.6s;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 0.250em 0.500em 0 rgba(0,0,0,0.2);
   transform-style: preserve-3d;
 }
 

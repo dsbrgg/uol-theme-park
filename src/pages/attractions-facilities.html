@@ -20,17 +20,11 @@
 
     <!--Attractions and Facilities page body-->
 
-    <!--navbar--> 
-    <header class = "sticky"> 
-
-      <div id="navbar">
-        <div class="nav-container">
-          <div class="logo-container"><img src="../public/images/shape_logo_circ.png" class="logo"></div>
-          <div class="menu-container"><b>Attractions & Facilities</b></div>
-          <div class="menu-container"><b>Ticket info</b></div>
-        </div>
-      </div>
-
+    <!-- Navbar -->
+    <header class="navbar-container"> 
+      <img id="navbar-logo" src="../public/images/shape_logo_circ.png">
+      <b id="navbar-attractions-link">Attractions & Facilities</b>
+      <b id="navbar-tickets-link">Ticket info</b>
     </header>
 
     <!--header carousel-->
@@ -62,6 +56,21 @@
 
     <!--page content-->
     <div class="attractions-facilities-page-content">
+      
+      <!-- Open hours & location -->
+      <aside class="aside-hour-location-container">
+        <!-- Using divs to apply flex justify-content equally -->
+        <div>
+          <img src="../public/images/clock.png" class="aside-clock-icon">
+          <span>Opening hours</span>
+        </div>
+        <!-- Using divs to apply flex values to all div children inside -->
+        <div>
+          <img src="../public/images/pointer.png" class="aside-location-icon">
+          <span>Location</span>
+        </div>
+      </aside>
+
       <!--rides-->
       <section class="attractions-facilities-flex-container">
 
@@ -256,7 +265,7 @@
           </div>
           
           <div class="attractions-facilities-article-4-slides attractions-facilities-article-article-fade">
-            <img class="attractions-facilities-images" src="../public/images/food-drinks-3.jpeg">
+            <img class="attractions-facilities-images" src="../public/images/food-drinks-3.jpg">
           </div>
           
           <a class="attractions-facilities-article-prev-4" onclick="articlePlusSlides(-1, 'attractions-facilities-article-4-slides')">❮</a>
@@ -267,36 +276,29 @@
       </section>
 
       <!--Contact details, park map, ticket info-->
-      <!-- <section class="contact-details-park-map-ticket-container-div">
-
-        <div class="attractions-facilities-flex-child">
-          <img class="attractions-facilities-images contact-details-park-map-ticket-pic-sizing" src="../public/images/circle.png">
+      <section class ="homepage-shape-links-container">
+        <img src="../public/images/circle.png">
+        <img src="../public/images/triangle.png">
+        <img src="../public/images/square.png">
+      </section>
+      
+      <!-- Footer -->
+      <footer>
+        <div class="footer-container">
+          <div>
+            <a href="#" class="fa fa-facebook footer-icon footer-icon-facebook"></a>
+            <a href="#" class="fa fa-twitter footer-icon footer-icon-twitter"></a>
+            <a href="#" class="fa fa-instagram footer-icon footer-icon-instagram"></a>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit
+          </p>
+          <p>
+            Consectetur adipiscing elit
+          </p>
         </div>
-
-        <div class="attractions-facilities-flex-child">
-          <img class="attractions-facilities-images contact-details-park-map-ticket-pic-sizing" src="../public/images/triangle.png">
-        </div>
-
-        <div class="attractions-facilities-flex-child">
-          <img class="attractions-facilities-images contact-details-park-map-ticket-pic-sizing" src="../public/images/square-2.png">
-        </div>
-          
-      </section> -->
-
-      <!-- footer -->
-      <footer class="attractions-facilities-footer">
-            <div class="attractions-facilities-flex-child">
-                <a href="#" class="fa fa-facebook"></a>
-                <a href="#" class="fa fa-twitter"></a>
-                <a href="#" class="fa fa-instagram"></a>
-            </div>
-            <div class="attractions-facilities-flex-child">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit
-            </div>
-            <div class="attractions-facilities-flex-child">
-                Consectetur adipiscing elit
-            </div>
       </footer>
+
     </div>
 
     <!--header carousel javascript-->

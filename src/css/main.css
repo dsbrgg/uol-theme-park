@@ -18,6 +18,7 @@ html, body {
 /* Navbar CSS */
 
 .navbar-container {
+    z-index: 1;
     position: fixed;
     display: flex;
     align-items: center;
@@ -90,7 +91,6 @@ html, body {
     display: flex;
     justify-content: space-between; 
     align-content: center;
-    background-color: white;
     padding: 0.5em 1em;
 }
 
