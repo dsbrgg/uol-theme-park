@@ -117,35 +117,36 @@
 }
 
 #attractions-facilities-article-1 {
-  border: 0.625em solid #bc3434;
+  border: 0.625em solid #662C91;
 }
 
 #attractions-facilities-card-1 {
-  background-color: #bc3434;
+  background-color: #0077BE;
+  color: black;
 }
 
 #attractions-facilities-article-2 {
-  border: 0.625em solid #48b929;
+  border: 0.625em solid #FFD166;
 }
 
 #attractions-facilities-card-2 {
-  background-color: #48b929;
+  background-color: #0077BE;
 }
 
 #attractions-facilities-article-3 {
-  border: 0.625em solid #2980b9;
+  border: 0.625em solid rgb(239, 71, 111);
 }
 
 #attractions-facilities-card-3 {
-  background-color: #2980b9;
+  background-color: #0077BE;
 }
 
 #attractions-facilities-article-4 {
-  border: 0.625em solid #663a82;
+  border: 0.625em solid #FF6B66;
 }
 
 #attractions-facilities-card-4 {
-  background-color: #663a82;
+  background-color: #0077BE;
 }
 
 .attractions-facilities-flex-child:first-child {
@@ -157,7 +158,6 @@
   justify-content: space-around;
   align-items: center;
   padding: 2em;
-  background-color: #dddd00;
 }
 
 .homepage-shape-links-container > img {
