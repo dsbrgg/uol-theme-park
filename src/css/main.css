@@ -33,12 +33,18 @@ html, body {
     font-size: 0.8em;
     flex-grow: 5;
     text-align: right;
+    color: #fdfffe;
+    font-Size: 1em;
+    padding-top: 0.5em;
 }
 
 #navbar-tickets-link {
     font-size: 0.8em;
     flex-grow: 1;
     text-align: center;
+    color: #fdfffe;
+    font-Size: 1em;
+    padding-top: 0.5em;
 }
 
 #navbar-logo {
