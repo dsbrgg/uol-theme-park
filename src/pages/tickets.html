@@ -32,21 +32,31 @@
       </header>
 	
 	<!--hero img-->
-	<header class="hero-image">
-		<div class="hero-text">
-			Tickets
-		</div>
-	</header>
+    <img src="../public/images/img2.jpg" class="tickets-image-container">
 
-	<!--announcements-container below header image-->
-	<section class="announcements-container">
-		<div style="flex-grow: 1">One ticket gives access to all attractions!</div>
-		<div style="flex-grow: 4"></div>
-		<div style="flex-grow: 0.1">Purchase in App and save 10%!</div>
-	</section>
+	 <!-- hero text-->
+     <aside class ="tickets-image-container-text">
+        <h2>Tickets</h2>
+    </aside>
+
+    <!-- Open hours & location -->
+    <aside class="aside-hour-location-container">
+        <!-- Using divs to apply flex justify-content equally -->
+        <div class="aside-hour-location-text">
+            <img src="../public/images/clock.png" class="aside-clock-icon">
+            <span>Opening hours: Monday-Saturday 8am-6pm.</span>
+        </div>
+
+
+        <!-- Using divs to apply flex values to all div children inside -->
+        <div>
+            <img src="../public/images/pointer.png" class="aside-location-icon">
+            <span><a href="https://www.google.com/maps/place/Zigzag,+Mt+Hood+Village,+OR+97067,+USA/@45.3430515,-121.9377935,16z/data=!4m5!3m4!1s0x54958a7e37cb91d7:0x131cfddd6e0a9cfa!8m2!3d45.3440078!4d-121.9431355" target="_blank">Location</a></span>
+        </div>
+    </aside>
 
     <!--page content-->
-    <div class="tickets-page-content-container">
+    <main class="tickets-page-content-container">
         <!--ticket information-->
         <section class="ticket-article">
             <div class="ticket-label">
@@ -112,7 +122,7 @@
 				<img src="../public/images/map.jpg" style= "width:100%; align-items:center;">
 			</div>
 		</div>
-    </div>
+    </main>
 
     <!-- Footer -->
     <footer class="footer-container">
