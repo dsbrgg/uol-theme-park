@@ -10,16 +10,9 @@
 
 /* Slideshow container */
 .attractions-facilities-slideshow-container {
-  max-width: 62.5em;
+  width: 100%;
   position: absolute;
   top: 2.8em;
-}
-
-/* Placing the dot container on the the carousel */
-.attractions-facilities-header-carousel-dot-container {
-  position: absolute;
-  top: 95%;
-  left: 45vw;
 }
 
 /* The dots/bullets/indicators */
