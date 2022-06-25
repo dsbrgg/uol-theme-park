@@ -129,23 +129,7 @@
 }
 
 .attractions-facilities-footer {
-  display: flex;
-  padding-top: 1.9em;
-  padding-bottom: 1.9em;
-  padding-left: 1.3em;
-  padding-right: 1.3em;
-}
-
-.attractions-facilities-footer > .attractions-facilities-flex-child:nth-child(2) {
-  margin-right: 1.3em;
-}
-
-.attractions-facilities-footer > .attractions-facilities-flex-child {
-  text-align: center;
-}
-
-.attractions-facilities-footer > .attractions-facilities-flex-child:first-child {
-  text-align: left;
+  background-image: linear-gradient(dodgerBlue, white 10%, white 90%, dodgerBlue);
 }
 
 /* Page content slideshow container */
