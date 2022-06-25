@@ -111,6 +111,10 @@ html, body {
     padding-left: 2em;
 }
 
+.footer-text{
+    padding-right: 5em;
+}
+
 .footer-icon {
     padding: 0.3em;
     width: 1.3em;
