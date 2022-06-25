@@ -20,39 +20,39 @@
         <!-- Navbar -->
         <header class="navbar-container"> 
             <img id="navbar-logo" src="../public/images/shape_logo_circ.png">
-            <b id="navbar-attractions-link"><a href="./attractions-facilities.html" style="color: white">Attractions & Facilities</b></a>
-            <b id="navbar-tickets-link"><a href="./tickets.html" style="color: white">Ticket info</b></a>
+            <b id="navbar-attractions-link"><a href="../pages/attractions-facilities.html" style="color: white">Attractions & Facilities</b></a>
+            <b id="navbar-tickets-link"><a href="../pages/tickets.html" style="color: white">Ticket info</b></a>
         </header>
+
+        <!-- Video loop -->
+        <video class="homepage-header-video-container" autoplay="autoplay" loop="loop" muted="muted">
+            <source src="../public/video/head_vid.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        
+        <!-- hero text-->
+        <aside class ="homepage-header-video-container-text">
+            <h2>The World's Best Preschool Adventure Park!</h2>
+        </aside>
+
+        <!-- Open hours & location -->
+        <aside class="aside-hour-location-container">
+            <!-- Using divs to apply flex justify-content equally -->
+            <div class="aside-hour-location-text">
+                <img src="../public/images/clock.png" class="aside-clock-icon">
+                <span>Opening hours: Monday-Saturday 8am-6pm.</span>
+            </div>
+
+
+            <!-- Using divs to apply flex values to all div children inside -->
+            <div>
+                <img src="../public/images/pointer.png" class="aside-location-icon">
+                <span><a href="https://www.google.com/maps/place/Zigzag,+Mt+Hood+Village,+OR+97067,+USA/@45.3430515,-121.9377935,16z/data=!4m5!3m4!1s0x54958a7e37cb91d7:0x131cfddd6e0a9cfa!8m2!3d45.3440078!4d-121.9431355" target="_blank">Location</a></span>
+            </div>
+        </aside>
 
         <!-- Main content (attractions, etc...) -->
         <main class="main-content-container">
-
-            <!-- Video loop -->
-            <video class="homepage-header-video-container" autoplay="autoplay" loop="loop" muted="muted">
-                <source src="../public/video/head_vid.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-            
-            <!-- hero text-->
-            <aside class ="homepage-header-video-container-text">
-                <h2>The World's Best Preschool Adventure Park!</h2>
-            </aside>
-
-            <!-- Open hours & location -->
-            <aside class="aside-hour-location-container">
-                <!-- Using divs to apply flex justify-content equally -->
-                <div class="aside-hour-location-text">
-                    <img src="../public/images/clock.png" class="aside-clock-icon">
-                    <span>Opening hours: Monday-Saturday 8am-6pm.</span>
-                </div>
-
-
-                <!-- Using divs to apply flex values to all div children inside -->
-                <div>
-                    <img src="../public/images/pointer.png" class="aside-location-icon">
-                    <span><a href="https://www.google.com/maps/place/Zigzag,+Mt+Hood+Village,+OR+97067,+USA/@45.3430515,-121.9377935,16z/data=!4m5!3m4!1s0x54958a7e37cb91d7:0x131cfddd6e0a9cfa!8m2!3d45.3440078!4d-121.9431355" target="_blank">Location</a></span>
-                </div>
-            </aside>
 
             <!-- Ride Info -->
             <section class="homepage-ride-info-section-container">
@@ -60,21 +60,21 @@
                     <h2>Rides</h2>
                     <img src="../public/images/Rides-Homepage.jpg" class="homepage-ride-info-section-img">
                     <span>Fun and gentle rides that introduce young children to the Shapeland world. Where everyone knows it's hip to be a square!</span>
-                    <button class="homepage-ride-info-section-button"><a href="./attractions-facilities.html" style="color: white">More</button></a>
+                    <button class="homepage-ride-info-section-button"><a href="../pages/attractions-facilities.html" style="color: white">More</button></a>
                 </article>
 
                 <article class="homepage-ride-info-article-container">
                     <h2>Activities</h2>
                     <img src="../public/images/Activities-Homepage.jpeg" class="homepage-ride-info-section-img" width = "550">
                     <span>Meet Sidro the Square and all the Shapeland friends in our activities centre opposite the park gates.</span>
-                    <button class="homepage-ride-info-section-button"><a href="./attractions-facilities.html" style="color: white">More</button></a>
+                    <button class="homepage-ride-info-section-button"><a href="../pages/attractions-facilities.html" style="color: white">More</button></a>
                 </article>
 
                 <article class="homepage-ride-info-article-container">
                     <h2>Food and Drink</h2>
                     <img src="../public/images/Food-Homepage.jpg" class="homepage-ride-info-section-img">
-                    <span>Terry the Trapezoid’s tea party is fun for all the family! Check out our shape-themed menus and keep the fun going through lunch!</span>
-                    <button class="homepage-ride-info-section-button"><a href="./attractions-facilities.html" style="color: white">More</button></a>
+                    <span>Terry the Trapezoid's tea party is fun for all the family! Check out our shape-themed menus and keep the fun going through lunch!</span>
+                    <button class="homepage-ride-info-section-button"><a href="../pages/attractions-facilities.html" style="color: white">More</button></a>
                 </article>
             </section>
 
@@ -89,7 +89,7 @@
                         water fountains across the park, and a range of healthy snack stations at every turn. Learn more about how our facilities support families 
                         with young children here:
                     </p>
-                    <button class="homepage-park-description-button"><a href="./attractions-facilities.html" style="color: white">Our Family-Centered Facilities</button></a>
+                    <button class="homepage-park-description-button"><a href="../pages/attractions-facilities.html" style="color: white">Our Family-Centered Facilities</button></a>
                 </div>
                 <img src="../public/images/Ethos.jpg" width="550">
             </section>
