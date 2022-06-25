@@ -1,5 +1,18 @@
 /*Tickets page CSS*/
 
+/* Page Content CSS */
+.tickets-page-content {
+  display: flex;
+  flex-flow: row wrap;
+  background-image: linear-gradient(dodgerBlue, white 10%, white 90%, dodgerBlue);
+  justify-content: center;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 0px;
+  text-align: center;
+  font-size: 15px;
+  }
+
 
  /* announcements bar */
 .announcements-container {
