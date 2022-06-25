@@ -7,48 +7,27 @@
   background-image: linear-gradient(dodgerBlue, white 10%, white 90%, dodgerBlue);
   justify-content: center;
   width: 100%;
-  padding-top: 20px;
-  padding-bottom: 0px;
+  padding-top: 2em;
+  padding-bottom: 0em;
   text-align: center;
-  font-size: 15px;
+  font-size: 0.9em;
   }
 
-
- /* announcements bar */
-.announcements-container {
-  display: flex;
-  align-items: center;
-  background-color: rgb(255, 209, 102);
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
-
-.announcements-container > div {
-  background-color: rgb(255, 209, 102);
-  color: rgb(0, 0, 0);
-  margin: 0px;
-  text-align: left;
-  line-height: 25px;
-  font-size: 20px;
-  padding: 0px 60px 0px 60px;
-}
-
-  
  /* ticket information */ 
 .ticket-article {
     width: 30%;
-    padding: 15px 25px 35px 0px; /*size*/
+    padding: 1em 1.5em 3em 0em; /*size*/
 }
 
 .ticket-label {
     border: none;
     color: white;
-    padding: 15px 60px;
+    padding: 1em 4.5em;
     text-align: left;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
+    font-size: 1em;
+    margin: 0.2em 0.1em;
     background-color: #0077BE;
 }
 
@@ -56,6 +35,7 @@
   object-fit: cover;
   width: 100%;
   height: 30em;
+  vertical-align: middle;
 }
 
 .tickets-image-container-text {
@@ -73,8 +53,8 @@
   color: white;
   text-align: right;
   text-decoration: none;
-  font-size: 18px;
-  margin: 4px -50px;
+  font-size: 1.5em;
+  margin: 0.1em -4em;
 }
 
  /* payment and contact information */
@@ -82,32 +62,30 @@
   display: flex;
   align-items: stretch;
   width: 100%;
-  padding: 50px 50px 30px 20px;
+  padding: 4em 4em 3.5em 3em;
   
 }
 
 .payment-contact-container > div {
   color: black;
-  border: 4px black;
   text-align: justify;
-  margin: 4px 2px;
-  border: 10px solid;
+  margin: 0.1em 0.3em;
+  border: 1em solid;
   border-color: rgb(239, 71, 111) white;
 }
 
  /* animated mascot */
 .mascot{
   background-position: left;
-  padding: 10px 0px 0px 0px;
+  padding: 1em 0em 0em 0em;
 
 }
 
  /* park map */
 .map-container {
-  padding: 1px 50px 200px 20px;
+  padding: 0.1em 5em 7em 2em;
   color: rgb(2, 2, 2);
-  margin: 30px;
-  font-size: 30px;
+  font-size: 2em;
   width: 80%;
   height: 80%;
 }
@@ -119,30 +97,17 @@
 	margin:auto;
 }
 
-h1 {
-	font-family: Helvetica, sans-serif;
-	font-weight: bold;
-	font-size: 50px;
-	color: #38023B;
-}
-
-h2 {
-	font-family: "Open Sans", Helvetica, sans-serif;
-	font-weight: bold;
-	font-size: 30px;
-	color: #38023B;
-}
-
-h3 {
+/* styling for text */
+payment-header-text {
 	font-family: "Permanent Marker", Helvetica, sans-serif;
-	font-size: 40px;
+	font-size: 2.5em;
 	color: #38023B;
 	font-weight: bold;
 }
-h4 {
+price-text {
 	font-family: "Permanent Marker", Helvetica, sans-serif;
-	font-size: 30px;
+	font-size: 1.5em;
 	color: white;
 	font-weight: bold;
-	padding-right: 60px;
+	padding-right: 3em;
 }
