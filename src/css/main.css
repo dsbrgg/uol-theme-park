@@ -97,6 +97,17 @@ html, body {
     color: white;
 }
 
+.shape-links-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2em;
+}
+  
+.shape-links-container > img {
+    width: 10%;
+}
+
 /* Footer CSS */
 
 .footer-container {

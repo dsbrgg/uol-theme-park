@@ -135,17 +135,6 @@
   margin-right: 1.3em;
 }
 
-.attraction-facilities-links-container {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 2em;
-}
-
-.attraction-facilities-links-container > img {
-  width: 10%;
-}
-
 .attractions-facilities-footer {
   display: flex;
   padding-top: 1.9em;
@@ -248,6 +237,10 @@
   display: flex;
   align-items: center;
   font-size: 1vw;
+}
+
+.attractions-facilities-flip-card-back > p {
+  padding: 3em;
 }
 
 .attractions-facilities-flip-card {
