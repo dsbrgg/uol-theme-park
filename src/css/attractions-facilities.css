@@ -28,15 +28,14 @@
 }
 
 /* Placing the carousel label on the carousel*/
-.attractions-facilities-carousel-label {
+.attractiona-facilities-header-carousel-container-text {
 	position: absolute;
     color: #ffff;
-    font-size: 300%;
-    background-color: #ef476e;
-    padding: 0.5em;
-    left: 5%;
-    top: 70%;
-    
+    background-color: rgb(239, 71, 111);
+    padding-left: 0.625em;
+    padding-right: 0.625em;
+    margin-top: -10em;
+    left: 5em;
 }
 
 .attractions-facilities-header-carousel-active {

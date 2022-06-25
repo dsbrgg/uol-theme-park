@@ -40,13 +40,22 @@ html, body {
     padding-top: 0.5em;
 }
 
+#navbar-attractions-link > a {
+    text-decoration: none;
+    color: white;
+}
+
 #navbar-tickets-link {
     font-size: 0.8em;
     flex-grow: 1;
     text-align: center;
-    color: #fdfffe;
-    font-Size: 1em;
-    padding-top: 0.5em;
+    text-decoration: none;
+    color: white;
+}
+
+#navbar-tickets-link > a {
+    text-decoration: none;
+    color: white;
 }
 
 #navbar-logo {
