@@ -1,7 +1,7 @@
 /*Tickets page CSS*/
 
 /* Page Content CSS */
-.tickets-page-content {
+.tickets-page-content-container {
   display: flex;
   flex-flow: row wrap;
   background-image: linear-gradient(dodgerBlue, white 10%, white 90%, dodgerBlue);
@@ -35,7 +35,7 @@
 
   
  /* ticket information */ 
-.ticket-container {
+.ticket-article {
     width: 30%;
     padding: 15px 25px 35px 0px; /*size*/
 }
