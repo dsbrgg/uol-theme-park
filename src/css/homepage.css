@@ -111,15 +111,15 @@
     justify-content: space-around;
     align-items: center;
     padding: 3em;
+    width: 100%;
     background-image: linear-gradient(rgb(255,255,255), rgb(255,255,255) 30%, rgb(255,255,255) 40%, rgb(30,144,255) 100%);
 }
 
-.homepage-shape-links-container > img {
-    width: 10%;
-    padding-bottom: 2em;
+.homepage-shape-links-container > a > img {
+    width: 10em;
 }
 
-.homepage-shape-links-container > img:hover {
+.homepage-shape-links-container > a > img:hover {
 	animation: shape-img-ani-1 2s ease 0s 1 normal forwards;
 }
 
