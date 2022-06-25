@@ -2,6 +2,8 @@
 
 .attractions-facilities-images {
   vertical-align: middle;
+  object-fit: cover;
+  width: 100%;
 }
 
 .attractions-facilities-header-slides {
@@ -11,9 +13,7 @@
 /* Slideshow container */
 .attractions-facilities-slideshow-container {
   width: 100%;
-  position: absolute;
   top: 2.8em;
-  object-fit: cover;
 }
 
 /* The dots/bullets/indicators */
@@ -64,7 +64,6 @@
 
 /* Page Content CSS */
 .attractions-facilities-page-content {
-  position: relative;
   top: 34.1em;
   background-image: linear-gradient(dodgerBlue, white 10%, white 90%, dodgerBlue);
 }
@@ -93,7 +92,7 @@
 }
 
 #attractions-facilities-article-1 {
-  border: 0.64em solid #662C91;
+  border: 0.625em solid #662C91;
 }
 
 #attractions-facilities-card-1 {
@@ -102,7 +101,7 @@
 }
 
 #attractions-facilities-article-2 {
-  border: 0.64em solid #FFD166;
+  border: 0.625em solid #FFD166;
 }
 
 #attractions-facilities-card-2 {
@@ -110,7 +109,7 @@
 }
 
 #attractions-facilities-article-3 {
-  border: 0.64em solid rgb(239, 71, 111);
+  border: 0.625em solid rgb(239, 71, 111);
 }
 
 #attractions-facilities-card-3 {
@@ -118,7 +117,7 @@
 }
 
 #attractions-facilities-article-4 {
-  border: 0.64em solid #FF6B66;
+  border: 0.625em solid #FF6B66;
 }
 
 #attractions-facilities-card-4 {
