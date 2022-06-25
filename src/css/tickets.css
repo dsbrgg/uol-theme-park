@@ -125,3 +125,31 @@
 	width: 80%;
 	margin:auto;
 }
+
+h1 {
+	font-family: Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 50px;
+	color: #38023B;
+}
+
+h2 {
+	font-family: "Open Sans", Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 30px;
+	color: #38023B;
+}
+
+h3 {
+	font-family: "Permanent Marker", Helvetica, sans-serif;
+	font-size: 40px;
+	color: #38023B;
+	font-weight: bold;
+}
+h4 {
+	font-family: "Permanent Marker", Helvetica, sans-serif;
+	font-size: 30px;
+	color: white;
+	font-weight: bold;
+	padding-right: 60px;
+}
