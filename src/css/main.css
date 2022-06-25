@@ -36,7 +36,6 @@ html, body {
     flex-grow: 5;
     text-align: right;
     color: #fdfffe;
-    font-Size: 1em;
     padding-top: 0.5em;
 }
 
@@ -51,6 +50,7 @@ html, body {
     text-align: center;
     text-decoration: none;
     color: white;
+    padding-top: 0.5em;
 }
 
 #navbar-tickets-link > a {
@@ -62,6 +62,45 @@ html, body {
     width: 5em;
     height: 2em;
     padding: 0.6em 0em 0em 0.6em;
+}
+
+.shape-links-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3em;
+    width: 100%;
+    background-image: linear-gradient(rgb(255,255,255), rgb(255,255,255) 30%, rgb(255,255,255) 40%, rgb(30,144,255) 100%);
+}
+.shape-links-container > a > img {
+    width: 10em;
+}
+.shape-links-container > a > img:hover {
+    animation: shape-img-ani-1 2s ease 0s 1 normal forwards;
+}
+
+@keyframes shape-img-ani-1 {
+    0% {
+        transform: scale3d(1, 1, 1);
+    }
+    30% {
+        transform: scale3d(1.25, 0.75, 1);
+    }
+    40% {
+        transform: scale3d(0.75, 1.25, 1);
+    }
+    50% {
+        transform: scale3d(1.15, 0.85, 1);
+    }
+    65% {
+        transform: scale3d(0.95, 1.05, 1);
+    }
+    75% {
+        transform: scale3d(1.05, 0.95, 1);
+    }
+    100% {
+        transform: scale3d(1, 1, 1);
+    }
 }
 
 /* Aside CSS (hour & location) */
@@ -104,17 +143,6 @@ html, body {
     padding-top: 1,2em;
     text-align: center;
     color: white;
-}
-
-.shape-links-container {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 2em;
-}
-  
-.shape-links-container > img {
-    width: 10%;
 }
 
 /* Footer CSS */
