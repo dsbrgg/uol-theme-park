@@ -19,6 +19,7 @@
     padding: 1em 1.5em 3em 0em; /*size*/
 }
 
+ /* ticket information */ 
 .ticket-label {
     border: none;
     color: white;
@@ -31,6 +32,7 @@
     background-color: #0077BE;
 }
 
+/* container for the hero image at top of page */ 
 .tickets-image-container {
   object-fit: cover;
   width: 100%;
@@ -38,6 +40,7 @@
   vertical-align: middle;
 }
 
+/* container for text label over the top of the hero image */
 .tickets-image-container-text {
   position: absolute;
   color: #ffff;
@@ -48,6 +51,7 @@
   left: 5em;
 }
 
+/* styling for ticket price text */ 
 .price{
   border: none;
   color: white;
@@ -66,6 +70,7 @@
   
 }
 
+/* container for the payment and contact sections */ 
 .payment-contact-container > div {
   color: black;
   text-align: justify;
@@ -74,14 +79,14 @@
   border-color: rgb(239, 71, 111) white;
 }
 
- /* animated mascot */
+ /* animated mascot styling */
 .mascot{
   background-position: left;
   padding: 1em 0em 0em 0em;
 
 }
 
- /* park map */
+ /* park map container */
 .map-container {
   padding: 0.1em 5em 7em 2em;
   color: rgb(2, 2, 2);
@@ -90,6 +95,7 @@
   height: 80%;
 }
 
+/* styling for the map image */ 
 .map-image {
 	display: flex;
 	height: 80%;
@@ -97,13 +103,15 @@
 	margin:auto;
 }
 
-/* styling for text */
+/* styling for text header in payment and contact section*/
 payment-header-text {
 	font-family: "Permanent Marker", Helvetica, sans-serif;
 	font-size: 2.5em;
 	color: #38023B;
 	font-weight: bold;
 }
+
+/* styling for price in ticket section */ 
 price-text {
 	font-family: "Permanent Marker", Helvetica, sans-serif;
 	font-size: 1.5em;
