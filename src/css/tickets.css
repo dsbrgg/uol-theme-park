@@ -8,28 +8,26 @@
   justify-content: center;
   width: 100%;
   padding-top: 2em;
-  padding-bottom: 0em;
   text-align: center;
   font-size: 0.9em;
   }
 
- /* ticket information */ 
-.ticket-article {
-    width: 30%;
-    padding: 1em 1.5em 3em 0em; /*size*/
+  /* ticket information */ 
+.ticket-section {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: stretch;
 }
 
  /* ticket information */ 
-.ticket-label {
-    border: none;
-    color: white;
-    padding: 1em 4.5em;
-    text-align: left;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 1em;
-    margin: 0.2em 0.1em;
-    background-color: #0077BE;
+.ticket-article {
+  width: 30%;
+  border: none;
+  color: white;
+  padding: 1em;
+  text-align: left;
+  margin: 1em;
+  background-color: #0077BE;
 }
 
 /* container for the hero image at top of page */ 
@@ -51,14 +49,15 @@
   left: 5em;
 }
 
-/* styling for ticket price text */ 
-.price{
-  border: none;
-  color: white;
+/* styling for price in ticket section */ 
+.price-text {
+	font-family: "Permanent Marker", Helvetica, sans-serif;
+	color: white;
+	font-weight: bold;
+  font-size: 2em;
   text-align: right;
-  text-decoration: none;
-  font-size: 1.5em;
-  margin: 0.1em -4em;
+  margin-top: 1em;
+  vertical-align: bottom;
 }
 
  /* payment and contact information */
@@ -67,11 +66,16 @@
   align-items: stretch;
   width: 100%;
   padding: 4em 4em 3.5em 3em;
-  
+}
+
+.payment-contact-container:nth-child(odd) {
+  flex-basis: 60%;
 }
 
 /* container for the payment and contact sections */ 
-.payment-contact-container > div {
+.payment-contact-container-article {
+  display: flex;
+  flex-direction: column;
   color: black;
   text-align: justify;
   margin: 0.1em 0.3em;
@@ -79,16 +83,30 @@
   border-color: rgb(239, 71, 111) white;
 }
 
- /* animated mascot styling */
-.mascot{
-  background-position: left;
-  padding: 1em 0em 0em 0em;
+/* container for the payment and contact sections */ 
+.payment-contact-container-article > div {
+  display: flex;
+  justify-content: space-around;
+}
 
+ /* animated mascot styling */
+.payment-contact-mascot {
+  object-fit: cover;
+  width: 10%;
+}
+
+.payment-contact-cards-image {
+  object-fit: cover;
+  width: 25%;
+  align-self: center;
 }
 
  /* park map container */
 .map-container {
-  padding: 0.1em 5em 7em 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 1em;
   color: rgb(2, 2, 2);
   font-size: 2em;
   width: 80%;
@@ -100,22 +118,13 @@
 	display: flex;
 	height: 80%;
 	width: 80%;
-	margin:auto;
+  align-self: center;
 }
 
 /* styling for text header in payment and contact section*/
-payment-header-text {
+.payment-header-text {
 	font-family: "Permanent Marker", Helvetica, sans-serif;
 	font-size: 2.5em;
 	color: #38023B;
 	font-weight: bold;
-}
-
-/* styling for price in ticket section */ 
-price-text {
-	font-family: "Permanent Marker", Helvetica, sans-serif;
-	font-size: 1.5em;
-	color: white;
-	font-weight: bold;
-	padding-right: 3em;
 }

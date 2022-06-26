@@ -2,19 +2,19 @@
 <html lang="en">
     <!--head section-->
     <head>
-    <title>Shapeland - Tickets</title>
-    <meta charset="utf-8">
-    <meta name="description" content="Practice web page.">
-    <meta name="author" content="shapeland">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="refresh" content="800">
-    <meta name="keywords" content="uol theme park">
-    <link rel="stylesheet" type="text/css" href="../css/main.css">
-    <link rel="stylesheet" type="text/css" href="../css/tickets.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!--social favigon-->
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Permanent+Marker&display=swap" rel="stylesheet">
+        <title>Shapeland - Tickets</title>
+        <meta charset="utf-8">
+        <meta name="description" content="Practice web page.">
+        <meta name="author" content="shapeland">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="refresh" content="800">
+        <meta name="keywords" content="uol theme park">
+        <link rel="stylesheet" type="text/css" href="../css/main.css">
+        <link rel="stylesheet" type="text/css" href="../css/tickets.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!--social favigon-->
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Permanent+Marker&display=swap" rel="stylesheet">
     </head>
 
     <!--Ticket page body-->
@@ -24,7 +24,7 @@
         <!-- Navbar -->
         <header class="navbar-container"> 
             <a href="./index.html">
-            <img id="navbar-logo" src="../public/images/shape_logo_circ.png" alt="Shapeland logo">
+                <img id="navbar-logo" src="../public/images/shape_logo_circ.png" alt="Shapeland logo">
             </a>
             <b id="navbar-attractions-link"><a href="../pages/attractions-facilities.html" style="color: white">Attractions & Facilities</a></b>
             <b id="navbar-tickets-link"><a href="../pages/tickets.html" style="color: white">Ticket info</a></b>
@@ -55,41 +55,37 @@
         <!--page content-->
         <main class="tickets-page-content-container">
             <!--ticket information for adult ticket -->
-            <section class="ticket-article">
-                <div class="ticket-label">
-                    <div><h2 style="color:white;">Adult Ticket</h2></div>
-                    <div><span><b>Information:</b></span></div>
-                    <div><span>This one day adult ticket gives you full access to the park and includes all rides, activities and shows. <br>Adult entry with accompanying child only.</span></div>
-                    <div class="price"><price-text>$10</price-text></div>
-                </div>
+            <section class="ticket-section">
+                <article class="ticket-article">
+                    <h2 style="color:white;">Adult Ticket</h2>
+                    <span>This one day adult ticket gives you full access to the park and includes all rides, activities and shows. <br>Adult entry with accompanying child only.</span>
+                    <div class="price-text">$10</div>
+                </article>
+    
+                <!--ticket information for child ticket -->
+                <article class="ticket-article">
+                    <h2 style="color:white;">Children Under 5</h2>
+                    <span>Our most important guest go free!<br>This ticket gives full access to the park and includes all rides, activities and shows. Plus all children get a free gift at the gate!</span>
+                    <div class="price-text">FREE</div>
+                </article>
+    
+                <!--ticket information for annual ticket -->
+                <article class="ticket-article">
+                    <h2 style="color:white;">Annual Ticket</h2>
+                    <span>Our annual pass gives you unlimited visits for one adult for 12 months. Pass must be presented with ID and is for the named pass holder only. Non-transferable.</span>
+                    <div class="price-text">$50</div>
+                </article>
             </section>
-            <!--ticket information for child ticket -->
-            <section class="ticket-article">
-                <div class="ticket-label">
-                    <div><h2 style="color:white;">Children Under 5</h2></div>
-                    <div><span><b>Information:</b></span></div>
-                    <div><span>Our most important guest go free!<br>This ticket gives full access to the park and includes all rides, activities and shows. Plus all children get a free gift at the gate!</span></div>
-                    <div class="price"><price-text>FREE!</price-text></div>
-                </div>
-            </section>
-            <!--ticket information for annual ticket -->
-            <section class="ticket-article">
-                <div class="ticket-label">
-                    <div><h2 style="color:white;">Annual Ticket</h2></div>
-                    <div><span><b>Information:</b></span></div>
-                    <div><span>Our annual pass gives you unlimited visits for one adult for 12 months. Pass must be presented with ID and is for the named pass holder only. Non-transferable.</span></div>
-                    <div class="price"><price-text>$50</price-text></div>
-                </div>
-            </section>
+
             <!--payment and contact information-->
-            <div class="payment-contact-container">
-                <div style="flex-basis:60%">
-                    <!-- animated mascot -->
-                    <div class="flexbox-media mascot">
-                    <img src="../public/images/mascot_crop_tickets.gif" alt="waving mascot" style="flex-grow: 1; float: right; width: 20%; height: 20%;">
+            <section class="payment-contact-container">
+                <article class="payment-contact-container-article">
+                    <div>
+                        <!-- payment options text -->
+                        <span class="payment-header-text">Payment Options</span>
+                        <!-- animated mascot -->
+                        <img src="../public/images/mascot_crop_tickets.gif" alt="waving mascot" class="payment-contact-mascot">
                     </div>
-                    <!-- payment options text -->
-                    <payment-header-text>Payment Options</payment-header-text>
                     <p>Visit our dedicated box office team at the park gates for limited edition shape-themed tickets & 
                     lanyards. Our box office accepts cards & cash.
                     <br><br>
@@ -99,10 +95,12 @@
                     <br><br>
                     We accept all major credit & debit cards. </p>
                     <!-- credit card logos -->
-                    <img src="https://www.merchantequip.com/image/?logos=v|m|a|d&height=64" alt="Merchant Equipment Store Credit Card Logos"/>
-                </div>
+                    <img class="payment-contact-cards-image" src="https://www.merchantequip.com/image/?logos=v|m|a|d&height=64" alt="Merchant Equipment Store Credit Card Logos"/>
+                </article>
+
                 <!-- contact information text -->
-                <div style="flex-basis:40%;"><payment-header-text>Getting here:</payment-header-text>
+                <article class="payment-contact-container-article">
+                    <span class="payment-header-text">Getting here:</span>
                     <p>Discover the excitement of Shapeland!<br><br>We are a short 10 minute drive from US Highway 26, only one hour from Portland, Oregon. We encourage our visitors to use green transportation methods but also offer parking at a flat rate of $3 per day.<br><br>Please do not hesitate to contact us for any reason at the details below.</p>
                     <table style="width:100%">
                         <tr>
@@ -118,16 +116,15 @@
                             <td>info@shapeland.com</td>
                         </tr>
                     </table>         
-                </div>
-            </div>
+                </article>
+            </section>
+            
             <!--park map-->
-            <div class="map-container">
-                <payment-header-text>Park Map</payment-header-text>
+            <section class="map-container">
+                <span class="payment-header-text">Park Map</span>
                 <br>
-                <div class="map-image">
-                    <img src="../public/images/map.jpg" alt="park map" style= "width:100%; align-items:center;">
-                </div>
-            </div>
+                <img src="../public/images/map.jpg" alt="park map" class="map-image">
+            </section>
         </main>
 
         <!-- Footer -->
@@ -139,9 +136,5 @@
             </div>
             <div class="footer-text">Shapeland and all characters are registered trademarks of Shapeland Limited. Registered Office: 4 Rectangle's Drive, Zigzag, Oregon, 97067, USA. Contact: info@shapeland.com</div>
         </footer>
-
-        <!--shape target div-->
-        <div id="animation"></div>
-
     </body>
 </html>
