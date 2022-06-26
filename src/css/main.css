@@ -31,6 +31,8 @@ html, body {
     width: 100%;
 }
 
+/* Navigation links CSS */
+
 #navbar-attractions-link {
     font-size: 0.8em;
     flex-grow: 5;
@@ -57,12 +59,15 @@ html, body {
     text-decoration: none;
     color: white;
 }
+/* Sets Logo Size*/
 
 #navbar-logo {
     width: 5em;
     height: 2em;
     padding: 0.6em 0em 0em 0.6em;
 }
+
+/* Sets Layout of Shape Links and End of Page Gradient */
 
 .shape-links-container {
     display: flex;
@@ -75,6 +80,9 @@ html, body {
 .shape-links-container > a > img {
     width: 10em;
 }
+
+/* Sets Animation of Links on Mouse Hover */
+
 .shape-links-container > a > img:hover {
     animation: shape-img-ani-1 2s ease 0s 1 normal forwards;
 }
@@ -103,7 +111,7 @@ html, body {
     }
 }
 
-/* Aside CSS (hour & location) */
+/* Styling and Layout CSS for Aside (opening hours & location).  */
 
 .aside-hour-location-container {
     display: flex;
@@ -119,11 +127,15 @@ html, body {
     padding: 0em 40em 0em 0em;
 }
 
+/* Sets Location and Size of Map Icon */
+
 .aside-location-icon {
     width: 1.2em;
     height: 1.2em;
     vertical-align: middle;
 }
+
+/* Sets Location and Size of Clock Icon */
 
 .aside-clock-icon {
     width: 1.3em;
@@ -131,12 +143,11 @@ html, body {
     vertical-align: middle;
 }
 
-/* Main content CSS */
+/* Main content CSS. Sets Layout of Containers*/
 
 .main-content-container {
     display: flex;
     flex-flow: row wrap;
-    background-color: rgb(30,144,255);
     justify-content: center;
     width: 100%;
     padding-top: 1,2em;
@@ -144,7 +155,7 @@ html, body {
     color: white;
 }
 
-/* Footer CSS */
+/* Footer CSS. Background Fill to blend with main container*/
 
 .footer-container {
     display: flex;
@@ -164,6 +175,8 @@ html, body {
     padding-right: 5em;
 }
 
+/* Layout CSS to set Location of Social Media Icons r*/
+
 .footer-icon {
     padding: 0.3em;
     width: 1.3em;
@@ -171,6 +184,8 @@ html, body {
     text-decoration: none;
     margin: 0.2em;
 }
+
+/* Adds Opacity to Icons on Mouse Hover*/
 
 .footer-icon:hover {
     opacity: 0.7;

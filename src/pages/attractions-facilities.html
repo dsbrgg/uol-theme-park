@@ -10,8 +10,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="refresh" content="800">
     <meta name="keywords" content="uol theme park">
+    <!-- External Stylesheet for CSS -->
     <link rel="stylesheet" type="text/css" href="../css/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!--social favigon-->
+    <!-- External Stylesheet for CSS -->
     <link rel="stylesheet" type="text/css" href="../css/attractions-facilities.css">
   
   </head>
@@ -23,19 +25,22 @@
     <!-- Navbar -->
     <header class="navbar-container"> 
       <a href="./index.html">
-        <img id="navbar-logo" src="../public/images/shape_logo_circ.png">
+        <!-- Shapeland Logo and Homepage Link -->
+        <img id="navbar-logo" src="../public/images/shape_logo_circ.png" alt="Shapeland logo">
       </a>
-      <b id="navbar-attractions-link"><a href="../pages/attractions-facilities.html" style="color: white">Attractions & Facilities</b></a>
-      <b id="navbar-tickets-link"><a href="../pages/tickets.html" style="color: white">Ticket info</b></a>
+      <!-- Attractions and Facilities Link -->
+      <b id="navbar-attractions-link"><a href="../pages/attractions-facilities.html" style="color: white">Attractions & Facilities</a></b>
+      <!-- Tickets Link -->
+      <b id="navbar-tickets-link"><a href="../pages/tickets.html" style="color: white">Ticket info</a></b>
     </header>
 
-    <!--header carousel-->
+    <!--header carousel with three images-->
     <section class="attractions-facilities-slideshow-container">
-      <img class="attractions-facilities-header-slides attractions-facilities-header-carousel-fade attractions-facilities-images" src="../public/images/header-carousel-1b.jpeg">
+      <img class="attractions-facilities-header-slides attractions-facilities-header-carousel-fade attractions-facilities-images" src="../public/images/header-carousel-1b.jpeg" alt="child in ride">
 
-      <img class="attractions-facilities-header-slides attractions-facilities-header-carousel-fade attractions-facilities-images" src="../public/images/header-carousel-2.jpeg">
+      <img class="attractions-facilities-header-slides attractions-facilities-header-carousel-fade attractions-facilities-images" src="../public/images/header-carousel-2.jpeg" alt="outdoor view">
 
-      <img class="attractions-facilities-header-slides attractions-facilities-header-carousel-fade attractions-facilities-images" src="../public/images/header-carousel-3.jpeg">
+      <img class="attractions-facilities-header-slides attractions-facilities-header-carousel-fade attractions-facilities-images" src="../public/images/header-carousel-3.jpeg" alt="ferris wheel">
     </section>
 
     <!-- hero text-->
@@ -50,12 +55,12 @@
       <aside class="aside-hour-location-container">
         <!-- Using divs to apply flex justify-content equally -->
         <div>
-          <img src="../public/images/clock.png" class="aside-clock-icon">
+          <img src="../public/images/clock.png" alt="clock icon" class="aside-clock-icon">
           <span>Opening hours: Monday-Saturday 8am-6pm.</span>
         </div>
         <!-- Using divs to apply flex values to all div children inside -->
         <div>
-          <img src="../public/images/pointer.png" class="aside-location-icon">
+          <img src="../public/images/pointer.png" alt="location icon" class="aside-location-icon">
           <span><a href="https://www.google.com/maps/place/Zigzag,+Mt+Hood+Village,+OR+97067,+USA/@45.3430515,-121.9377935,16z/data=!4m5!3m4!1s0x54958a7e37cb91d7:0x131cfddd6e0a9cfa!8m2!3d45.3440078!4d-121.9431355" target="_blank">Location</a></span>
         </div>
       </aside>
@@ -64,17 +69,17 @@
       <section class="attractions-facilities-flex-container">
 
         <article id="attractions-facilities-article-1" class="attractions-facilities-flex-child attractions-facilities-article-slideshow-container">
-          
+          <!-- Three Images of Rides in On Click Slideshow -->
           <div class="attractions-facilities-article-1-slides attractions-facilities-article-article-fade">
-            <img class="attractions-facilities-images" src="../public/images/ride-1.jpg">
+            <img class="attractions-facilities-images" src="../public/images/ride-1.jpg" alt="child and family in ride">
           </div>
           
           <div class="attractions-facilities-article-1-slides attractions-facilities-article-article-fade">
-            <img class="attractions-facilities-images" src="../public/images/ride-2.jpg">
+            <img class="attractions-facilities-images" src="../public/images/ride-2.jpg" alt="happy child in ride">
           </div>
           
           <div class="attractions-facilities-article-1-slides attractions-facilities-article-article-fade">
-            <img class="attractions-facilities-images" src="../public/images/ride-3.jpg">
+            <img class="attractions-facilities-images" src="../public/images/ride-3.jpg" alt="women in ride">
           </div>
           
           <a class="attractions-facilities-article-prev-1" onclick="articlePlusSlides(-1, 'attractions-facilities-article-1-slides')">❮</a>
@@ -83,7 +88,7 @@
         </article>
           
         <article class="attractions-facilities-flex-child">
-
+          <!-- Interactive flip box containing text. Flips to reveal more details on mouse hover. -->
           <section class="attractions-facilities-flip-card">
 
             <div id="attractions-facilities-card-1" class="attractions-facilities-flip-card-inner">
@@ -108,7 +113,7 @@
 
       <!--activities-->
       <section class="attractions-facilities-flex-container">
-
+         <!-- Interactive flip box containing text. Flips to reveal more details on mouse hover. -->
         <article class="attractions-facilities-flex-child">
 
           <section class="attractions-facilities-flip-card">
@@ -133,17 +138,17 @@
         </article>
 
         <article id="attractions-facilities-article-2" class="attractions-facilities-flex-child attractions-facilities-article-slideshow-container">
-          
+          <!-- Three Images of Activities in On Click Slideshow -->
           <div class="attractions-facilities-article-2-slides attractions-facilities-article-article-fade">
-            <img class="attractions-facilities-images" src="../public/images/activities-1.jpg">
+            <img class="attractions-facilities-images" src="../public/images/activities-1.jpg" alt="children painting">
           </div>
           
           <div class="attractions-facilities-article-2-slides attractions-facilities-article-article-fade">
-            <img class="attractions-facilities-images" src="../public/images/activities-2.jpg">
+            <img class="attractions-facilities-images" src="../public/images/activities-2.jpg" alt="children on balance bikes">
           </div>
           
           <div class="attractions-facilities-article-2-slides attractions-facilities-article-article-fade">
-            <img class="attractions-facilities-images" src="../public/images/activities-3.jpg">
+            <img class="attractions-facilities-images" src="../public/images/activities-3.jpg" alt="playground">
           </div>
           
           <a class="attractions-facilities-article-prev-2" onclick="articlePlusSlides(-1, 'attractions-facilities-article-2-slides')">❮</a>
@@ -157,17 +162,17 @@
       <section class="attractions-facilities-flex-container">
 
         <article id="attractions-facilities-article-3" class="attractions-facilities-flex-child attractions-facilities-article-slideshow-container">
-          
+          <!-- Three Images of Facilities in On Click Slideshow -->
           <div class="attractions-facilities-article-3-slides attractions-facilities-article-article-fade">
-            <img class="attractions-facilities-images" src="../public/images/facilities-1.webp">
+            <img class="attractions-facilities-images" src="../public/images/facilities-1.webp" alt="snack bar">
           </div>
           
           <div class="attractions-facilities-article-3-slides attractions-facilities-article-article-fade">
-            <img class="attractions-facilities-images" src="../public/images/facilities-2.jpg">
+            <img class="attractions-facilities-images" src="../public/images/facilities-2.jpg" alt="baby changing and feeding room">
           </div>
           
           <div class="attractions-facilities-article-3-slides attractions-facilities-article-article-fade">
-            <img class="attractions-facilities-images" src="../public/images/facilities-3.jpg">
+            <img class="attractions-facilities-images" src="../public/images/facilities-3.jpg" alt="view of external building">
           </div>
           
           <a class="attractions-facilities-article-prev-3" onclick="articlePlusSlides(-1, 'attractions-facilities-article-3-slides')">❮</a>
@@ -176,7 +181,7 @@
         </article>
           
         <article class="attractions-facilities-flex-child">
-
+           <!-- Interactive flip box containing text. Flips to reveal more details on mouse hover. -->
           <section class="attractions-facilities-flip-card">
 
             <div id="attractions-facilities-card-3" class="attractions-facilities-flip-card-inner">
@@ -204,7 +209,7 @@
       <section class="attractions-facilities-flex-container">
 
         <article class="attractions-facilities-flex-child">
-
+           <!-- Interactive flip box containing text. Flips to reveal more details on mouse hover. -->
           <section class="attractions-facilities-flip-card">
 
             <div id="attractions-facilities-card-4" class="attractions-facilities-flip-card-inner">
@@ -215,7 +220,7 @@
           
               <div class="attractions-facilities-flip-card-back">
                 <p>
-                  In addition to snack and water stations throughout the park, we offer a range of family restaurants and cafes for ‘sit down meals’. Parents will love our range of the healthy, nutritious meals on our shape-themed menus, while kids will love that every eatery has its own play and activity centre to keep them busy! For quick meals, Terry the Trapezoid’s Tea Party offers sandwiches and snacks in addition to a selection of bubbling, popping and colour-changing teas. Tallulah Triangle’s Diner serves a range of shape-themed meals while little ones sing along with Tallulah’s famous triangle cabaret. Finally, Remy rectangles’s snack bars are available throughout the park with freshly baked pastries, fruit, cakes and biscuits.
+                  In addition to snack and water stations throughout the park, we offer a range of family restaurants and cafes for ‘sit down meals’. Parents will love our range of the healthy, nutritious meals on our shape-themed menus, while kids will love that every eatery has its own play and activity centre to keep them busy! For quick meals, Terry the Trapezoid’s Tea Party offers sandwiches and snacks in addition to a selection of bubbling, popping and colour-changing teas. Tallulah Triangle’s Diner serves a range of shape-themed meals while little ones sing along with Tallulah’s famous triangle cabaret. Finally, Remy Rectangles’s snack bars are available throughout the park with freshly baked pastries, fruit, cakes and biscuits.
 
                 </p> 
               </div>
@@ -227,17 +232,17 @@
         </article>
 
         <article id="attractions-facilities-article-4" class="attractions-facilities-flex-child attractions-facilities-article-slideshow-container">
-          
+          <!-- Three Images of Food and Drink in On Click Slideshow -->
           <div class="attractions-facilities-article-4-slides attractions-facilities-article-article-fade">
-            <img class="attractions-facilities-images" src="../public/images/food-drinks-1.jpeg">
+            <img class="attractions-facilities-images" src="../public/images/food-drinks-1.jpeg" alt="fruit and drinks display">
           </div>
           
           <div class="attractions-facilities-article-4-slides attractions-facilities-article-article-fade">
-            <img class="attractions-facilities-images" src="../public/images/food-drinks-2.jpeg">
+            <img class="attractions-facilities-images" src="../public/images/food-drinks-2.jpeg" alt="healthy food selection">
           </div>
           
           <div class="attractions-facilities-article-4-slides attractions-facilities-article-article-fade">
-            <img class="attractions-facilities-images" src="../public/images/food-drinks-3.jpg">
+            <img class="attractions-facilities-images" src="../public/images/food-drinks-3.jpg" alt="mum and child enjoying their meal">
           </div>
           
           <a class="attractions-facilities-article-prev-4" onclick="articlePlusSlides(-1, 'attractions-facilities-article-4-slides')">❮</a>
@@ -249,14 +254,17 @@
 
       <!--Contact details, park map, ticket info-->
       <section class ="shape-links-container">
+         <!-- Link to Contact Details -->
         <a href="./tickets.html">
-            <img src="../public/images/circle.png">
+            <img src="../public/images/circle.png" alt="contact details button">
         </a>
+        <!-- Link to Tickets -->
         <a href="./tickets.html">
-            <img src="../public/images/triangle.png">
+            <img src="../public/images/triangle.png" alt="park map button">
         </a>
+        <!-- Waving Mascot -->
         <a href="./attractions-facilities.html">
-            <img src="../public/images/mascot_crop.gif">
+            <img src="../public/images/mascot_crop.gif" alt="waving mascot">
         </a>
     </section>
 
@@ -265,11 +273,13 @@
     <!-- Footer -->
     <footer class="footer-container">
       <div class="footer-icons-container">
+          <!-- Social Media Icons -->
           <a href="#" class="fa fa-facebook footer-icon footer-icon-facebook"></a>
           <a href="#" class="fa fa-twitter footer-icon footer-icon-twitter"></a>
           <a href="#" class="fa fa-instagram footer-icon footer-icon-instagram"></a>
       </div>
-      <div class="footer-text">Shapeland and all characters are registered trademarks of Shapeland Limited. Registered Office: 4 Rectangles Drive, Zigzag, Oregon, 97067, USA. Contact: info@shapeland.com</div>
+      <!-- Legal Text -->
+      <div class="footer-text">Shapeland and all characters are registered trademarks of Shapeland Limited. Registered Office: 4 Rectangle's Drive, Zigzag, Oregon, 97067, USA. Contact: info@shapeland.com</div>
     </footer>
 
     <!--header carousel javascript-->
