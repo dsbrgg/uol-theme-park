@@ -7,7 +7,7 @@
 	font-weight: bold;
 }
 
-/* Homepage video CSS */
+/* Homepage video CSS. Positions Video. */
 
 .homepage-header-video-container {
     object-fit: cover;
@@ -15,6 +15,8 @@
     height: 40em;
     margin-top: -10em;
 }
+
+/* Homepage video Header CSS. Positions and Styles Header over video. */
 
 .homepage-header-video-container-text {
 	position: absolute;
@@ -26,7 +28,7 @@
     left: 5em;
 }
 
-/* Homepage ride info CSS */
+/* Homepage ride info CSS. Sets Background Gradient and Layout for Containers */
 
 .homepage-ride-info-section-container {
     background-image: linear-gradient(rgb(30,144,255), rgb(255,255,255) 12%, rgb(255,255,255) 90%);
@@ -37,6 +39,8 @@
 
 }
 
+/* Sets Layout for Ride/Activities/Food Containers as Columns. Sets Text Colour. */
+
 .homepage-ride-info-article-container {
     display: flex;
     align-self: left;
@@ -46,11 +50,15 @@
     
 }
 
+/* Positions Ride Image */
+
 .homepage-ride-info-section-img {
     width: 70%;
     align-self: center;
     padding-bottom: 0.5em;
 }
+
+/* Styling and Layout for Button */
 
 .homepage-ride-info-section-button {
     align-self: center;
@@ -62,13 +70,14 @@
     margin-top: 1em;
   }
 
+/* Adds Colour Change on Button with Mouse Hover */
 
 .homepage-ride-info-section-button:hover {
     background-color: #d6d9da;
     color: white;
 }
 
-/* Homepage theme park description CSS */
+/* Homepage theme park description (Ethos) CSS. Sets Overall Layout, Background and Text Colour. */
 
 .homepage-park-description-container {
     display: flex;
@@ -80,12 +89,16 @@
     padding-bottom: 5em;
 }
 
+/* Positions Text in Ethos Container */
+
 .homepage-park-description-text-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 40em;
 }
+
+/* Positions and Styles Button in Ethos Container */
 
 .homepage-park-description-button {
     align-self: center;
@@ -99,12 +112,14 @@
     cursor: pointer;
 }
 
+/* Changes Button Colour on Mouse Hover */
+
 .homepage-park-description-button:hover {
     background-color: #d6d9da;
     color: white;
 }
 
-/* Homepage theme park shape CSS & animation */
+/* Homepage theme park shape Layout CSS & animation. Background Gradient for Bottom of Page. */
 
 .homepage-shape-links-container {
     display: flex;
@@ -118,6 +133,8 @@
 .homepage-shape-links-container > a > img {
     width: 10em;
 }
+
+/* Animation on Shape Linksr */
 
 .homepage-shape-links-container > a > img:hover {
 	animation: shape-img-ani-1 2s ease 0s 1 normal forwards;

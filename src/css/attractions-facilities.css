@@ -11,12 +11,14 @@
 }
 
 /* Slideshow container */
+
 .attractions-facilities-slideshow-container {
   width: 100%;
   top: 2.8em;
 }
 
 /* The dots/bullets/indicators */
+
 .attractions-facilities-header-carousel-dot {
   height: 0.9em;
   width: 0.9em;
@@ -28,6 +30,7 @@
 }
 
 /* Placing the carousel label on the carousel*/
+
 .attractiona-facilities-header-carousel-container-text {
 	position: absolute;
     color: #ffff;
@@ -43,6 +46,7 @@
 }
 
 /* Fading animation */
+
 .attractions-facilities-header-carousel-fade {
   animation-name: fade;
   animation-duration: 2.5s;
@@ -54,11 +58,14 @@
 }
 
 
-/* Page Content CSS */
+/* Page Content CSS. Sets Page Gradient. */
+
 .attractions-facilities-page-content {
   top: 34.1em;
   background-image: linear-gradient(dodgerBlue, white 10%, white 90%, dodgerBlue);
 }
+
+/* Sets Layout for Containers */
 
 .attractions-facilities-flex-container {
   display: flex;
@@ -75,6 +82,8 @@
   /* border: 0.188em solid black; */
 }
  
+/* Adds Shadow Around Image Containers */
+
 .attractions-facilities-flex-child > div > * {
   box-shadow: 0 0.250em 0.5em 0 rgba(0,0,0,0.2);
 }
@@ -83,34 +92,50 @@
   width: 100%;
 }
 
+/* Adds Border Around Ride Images */
+
 #attractions-facilities-article-1 {
   border: 0.625em solid #662C91;
 }
+
+/* Adds Style Elements to Text Container for Rides*/
 
 #attractions-facilities-card-1 {
   background-color: #0077BE;
   color: black;
 }
 
+/* Adds Border Around Activity Images */
+
 #attractions-facilities-article-2 {
   border: 0.625em solid #FFD166;
 }
+
+/* Adds Style Elements to Text Container for Activities */
 
 #attractions-facilities-card-2 {
   background-color: #0077BE;
 }
 
+/* Adds Border Around Facilities Images */
+
 #attractions-facilities-article-3 {
   border: 0.625em solid rgb(239, 71, 111);
 }
+
+/* Adds Style Elements to Text Container for Facilities */
 
 #attractions-facilities-card-3 {
   background-color: #0077BE;
 }
 
+/* Adds Border Around Facilities Images */
+
 #attractions-facilities-article-4 {
   border: 0.625em solid #FF6B66;
 }
+
+/* Adds Style Elements to Text Container for Facilities */
 
 #attractions-facilities-card-4 {
   background-color: #0077BE;
@@ -120,16 +145,20 @@
   margin-right: 1.3em;
 }
 
+/* Adds Background Gradient to Footer Container */
+
 .attractions-facilities-footer {
   background-image: linear-gradient(dodgerBlue, white 10%, white 90%, dodgerBlue);
 }
 
 /* Page content slideshow container */
+
 .attractions-facilities-article-slideshow-container {
   position: relative;
 }
 
 /* Next & previous buttons */
+
 .attractions-facilities-article-prev-1, .attractions-facilities-article-next-1, .attractions-facilities-article-prev-2, .attractions-facilities-article-next-2, .attractions-facilities-article-prev-3, .attractions-facilities-article-next-3, .attractions-facilities-article-prev-4, .attractions-facilities-article-next-4 {
   cursor: pointer;
   position: absolute;
@@ -147,23 +176,27 @@
 }
 
 /* Position the "next button" to the right */
+
 .attractions-facilities-article-next-1, .attractions-facilities-article-next-2, .attractions-facilities-article-next-3, .attractions-facilities-article-next-4 {
   right: 0;
   border-radius: 0.2em 0 0 0.2em;
 }
 
 /* On hover, add a black background color with a little bit see-through */
+
 .attractions-facilities-article-prev-1:hover, .attractions-facilities-article-next-1:hover, .attractions-facilities-article-prev-2:hover, .attractions-facilities-article-next-2:hover, .attractions-facilities-article-prev-3:hover, .attractions-facilities-article-next-3:hover, .attractions-facilities-article-prev-4:hover, .attractions-facilities-article-next-4:hover {
   background-color: rgba(0,0,0,0.8);
 }
 
 /* Fading animation */
+
 .attractions-facilities-article-article-fade {
   animation-name: fade;
   animation-duration: 1.5s;
 }
 
-/* For the flip card */
+/* Layout and Styling For the Flip Card Containers */
+
 .attractions-facilities-flip-card {
   background-color: transparent;
   width: 75%;
